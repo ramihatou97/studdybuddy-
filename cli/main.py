@@ -15,6 +15,7 @@ from reference_library.library_manager import LibraryManager
 from reference_library.notes_manager import NotesManager
 from reference_library.flashcard_manager import FlashcardManager
 from reference_library.study_tracker import StudyTracker
+from search.search_service import SearchService
 from utils.config import get_config
 from utils.logger import logger
 
@@ -28,6 +29,7 @@ library_manager = LibraryManager(db_manager, config.library.books_dir)
 notes_manager = NotesManager(db_manager)
 flashcard_manager = FlashcardManager(db_manager)
 study_tracker = StudyTracker(db_manager)
+search_service = SearchService(db_manager)
 
 
 @click.group()
@@ -263,6 +265,98 @@ def stats(days):
         rprint("\n[cyan]Topics:[/cyan]")
         for topic in stats['topics']:
             rprint(f"  • {topic}")
+
+
+# Search command
+@cli.command()
+@click.argument('query')
+def search(query):
+    """Search across all your content (books, notes, flashcards)"""
+    results = search_service.search_all(query)
+    
+    if results['total'] == 0:
+        rprint(f"[yellow]No results found for '{query}'[/yellow]")
+        return
+    
+    rprint(f"[cyan]🔍 Found {results['total']} result(s) for '{query}'[/cyan]\n")
+    
+    # Show books
+    if results['books']:
+        rprint("[bold green]📚 Books:[/bold green]")
+        for book in results['books']:
+            rprint(f"  #{book.id} {book.title}")
+            if book.author:
+                rprint(f"      by {book.author}")
+        rprint("")
+    
+    # Show notes
+    if results['notes']:
+        rprint("[bold green]📝 Notes:[/bold green]")
+        for note in results['notes']:
+            rprint(f"  #{note.id} {note.topic}")
+            content_preview = note.content[:80] + "..." if len(note.content) > 80 else note.content
+            rprint(f"      {content_preview}")
+        rprint("")
+    
+    # Show flashcards
+    if results['flashcards']:
+        rprint("[bold green]🗂️  Flashcards:[/bold green]")
+        for card in results['flashcards']:
+            rprint(f"  #{card.id} {card.topic or 'General'}")
+            rprint(f"      Q: {card.question[:60]}...")
+
+
+# Dashboard command
+@cli.command()
+def dashboard():
+    """Show your complete study dashboard"""
+    from reference_library.models import Book, Note, Flashcard, StudySession
+    
+    console.print("\n[bold cyan]📊 StudyBuddy Dashboard[/bold cyan]\n")
+    
+    # Library stats
+    session = db_manager.get_session()
+    try:
+        book_count = session.query(Book).count()
+        note_count = session.query(Note).count()
+        flashcard_count = session.query(Flashcard).count()
+        session_count = session.query(StudySession).count()
+        
+        # Create stats table
+        table = Table(title="📈 Your Progress", show_header=True)
+        table.add_column("Category", style="cyan", width=20)
+        table.add_column("Count", justify="right", style="green", width=10)
+        table.add_column("Status", style="yellow", width=30)
+        
+        table.add_row("Books", str(book_count), "📚 Textbooks in library")
+        table.add_row("Notes", str(note_count), "📝 Study notes created")
+        table.add_row("Flashcards", str(flashcard_count), "🗂️  Cards for review")
+        table.add_row("Study Sessions", str(session_count), "⏱️  Tracked sessions")
+        
+        console.print(table)
+        
+        # Flashcard stats
+        flashcard_stats = flashcard_manager.get_stats()
+        console.print(f"\n[cyan]Flashcards:[/cyan]")
+        console.print(f"  Due for review: [yellow]{flashcard_stats['due']}[/yellow]")
+        console.print(f"  Mastered: [green]{flashcard_stats['mastered']}[/green]")
+        
+        # Recent activity
+        study_stats = study_tracker.get_stats(7)
+        console.print(f"\n[cyan]Last 7 Days:[/cyan]")
+        console.print(f"  Study time: [green]{study_stats['total_hours']} hours[/green]")
+        console.print(f"  Topics: [yellow]{study_stats['unique_topics']}[/yellow]")
+        
+        if flashcard_stats['due'] > 0:
+            console.print(f"\n[yellow]💡 You have {flashcard_stats['due']} flashcard(s) ready to review![/yellow]")
+            console.print(f"   Run: [cyan]python3 cli/main.py flashcards review[/cyan]")
+        else:
+            console.print("\n[green]✅ All caught up on flashcards! Great work![/green]")
+        
+        console.print("")
+        
+    finally:
+        session.close()
 
 
 if __name__ == '__main__':
