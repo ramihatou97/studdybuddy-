@@ -1,6 +1,6 @@
 """
 Library manager for PDF books and references.
-Simple CRUD operations for medical textbooks.
+Comprehensive PDF processing with text and image extraction.
 """
 import shutil
 from pathlib import Path
@@ -8,35 +8,41 @@ from typing import List, Optional
 from datetime import datetime
 from PyPDF2 import PdfReader
 
-from reference_library.models import Book, DatabaseManager
+from reference_library.models import Book, DatabaseManager, ExtractedPage, ExtractedImage
+from reference_library.pdf_extractor import PDFContentExtractor
 from utils.exceptions import FileNotFoundError, InvalidFileFormatError, RecordNotFoundError
 from utils.logger import logger
 
 
 class LibraryManager:
-    """Manages the reference library of medical textbooks."""
+    """Manages the reference library of medical textbooks with content extraction."""
     
-    def __init__(self, db_manager: DatabaseManager, books_dir: Path):
+    def __init__(self, db_manager: DatabaseManager, books_dir: Path, images_dir: Path):
         """
         Initialize library manager.
         
         Args:
             db_manager: Database manager instance
             books_dir: Directory to store books
+            images_dir: Directory to store extracted images
         """
         self.db_manager = db_manager
         self.books_dir = Path(books_dir)
+        self.images_dir = Path(images_dir)
         self.books_dir.mkdir(parents=True, exist_ok=True)
+        self.images_dir.mkdir(parents=True, exist_ok=True)
+        self.pdf_extractor = PDFContentExtractor(images_dir)
     
     def add_book(self, pdf_path: str, title: Optional[str] = None, 
-                 author: Optional[str] = None) -> Book:
+                 author: Optional[str] = None, extract_content: bool = True) -> Book:
         """
-        Add a new book to the library.
+        Add a new book to the library and optionally extract content.
         
         Args:
             pdf_path: Path to PDF file
             title: Optional book title (uses filename if not provided)
             author: Optional author name
+            extract_content: Whether to extract text and images
         
         Returns:
             Created Book object
@@ -80,13 +86,20 @@ class LibraryManager:
                 file_path=str(dest_path),
                 author=author,
                 total_pages=total_pages,
-                added_at=datetime.utcnow()
+                added_at=datetime.utcnow(),
+                text_extracted=False,
+                images_extracted=False
             )
             session.add(book)
             session.commit()
             session.refresh(book)
             
             logger.info(f"Added book: {title} ({total_pages} pages)")
+            
+            # Extract content if requested
+            if extract_content:
+                self._extract_and_store_content(book, dest_path)
+            
             return book
         except Exception as e:
             session.rollback()
@@ -94,6 +107,68 @@ class LibraryManager:
             raise
         finally:
             session.close()
+    
+    def _extract_and_store_content(self, book: Book, pdf_path: Path) -> None:
+        """
+        Extract and store content from PDF.
+        
+        Args:
+            book: Book object
+            pdf_path: Path to PDF file
+        """
+        logger.info(f"Extracting content from: {book.title}")
+        
+        try:
+            # Extract all content
+            extracted = self.pdf_extractor.extract_all_content(str(pdf_path), book.id)
+            
+            session = self.db_manager.get_session()
+            try:
+                # Store extracted pages
+                for page_data in extracted["text_content"]:
+                    extracted_page = ExtractedPage(
+                        book_id=book.id,
+                        page_number=page_data["page_number"],
+                        text_content=page_data["text"],
+                        word_count=page_data["word_count"],
+                        has_tables=len(page_data.get("tables", [])) > 0,
+                        extracted_at=datetime.utcnow()
+                    )
+                    session.add(extracted_page)
+                
+                # Store extracted images
+                for img_data in extracted["images"]:
+                    extracted_image = ExtractedImage(
+                        book_id=book.id,
+                        page_number=img_data["page_number"],
+                        image_path=img_data["path"],
+                        filename=img_data["filename"],
+                        width=img_data["width"],
+                        height=img_data["height"],
+                        size_kb=img_data["size_kb"],
+                        extracted_at=datetime.utcnow()
+                    )
+                    session.add(extracted_image)
+                
+                # Update book flags
+                book.text_extracted = True
+                book.images_extracted = True
+                
+                session.commit()
+                
+                logger.info(f"Stored {len(extracted['text_content'])} pages and "
+                          f"{len(extracted['images'])} images for book: {book.title}")
+            
+            except Exception as e:
+                session.rollback()
+                logger.error(f"Failed to store extracted content: {e}")
+                raise
+            finally:
+                session.close()
+        
+        except Exception as e:
+            logger.error(f"Content extraction failed: {e}")
+            # Don't fail the whole operation if extraction fails
     
     def list_books(self) -> List[Book]:
         """

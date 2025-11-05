@@ -14,6 +14,7 @@ from reference_library.library_manager import LibraryManager
 from reference_library.notes_manager import NotesManager
 from reference_library.flashcard_manager import FlashcardManager
 from reference_library.study_tracker import StudyTracker
+from generation.chapter_synthesizer import ChapterSynthesizer
 from search.search_service import SearchService
 from utils.config import get_config
 from utils.logger import logger
@@ -24,11 +25,12 @@ config = get_config()
 
 # Initialize managers
 db_manager = DatabaseManager(str(config.database.db_path))
-library_manager = LibraryManager(db_manager, config.library.books_dir)
+library_manager = LibraryManager(db_manager, config.library.books_dir, config.library.images_dir)
 notes_manager = NotesManager(db_manager)
 flashcard_manager = FlashcardManager(db_manager)
 study_tracker = StudyTracker(db_manager)
 search_service = SearchService(db_manager)
+chapter_synthesizer = ChapterSynthesizer(db_manager)
 
 
 @click.group()
@@ -309,7 +311,7 @@ def search(query):
 @cli.command()
 def dashboard():
     """Show your complete study dashboard"""
-    from reference_library.models import Book, Note, Flashcard, StudySession
+    from reference_library.models import Book, Note, Flashcard, StudySession, ExtractedPage, ExtractedImage, Chapter
     
     console.print("\n[bold cyan]📊 StudyBuddy Dashboard[/bold cyan]\n")
     
@@ -320,19 +322,33 @@ def dashboard():
         note_count = session.query(Note).count()
         flashcard_count = session.query(Flashcard).count()
         session_count = session.query(StudySession).count()
+        extracted_pages = session.query(ExtractedPage).count()
+        extracted_images = session.query(ExtractedImage).count()
+        chapter_count = session.query(Chapter).count()
         
         # Create stats table
         table = Table(title="📈 Your Progress", show_header=True)
-        table.add_column("Category", style="cyan", width=20)
+        table.add_column("Category", style="cyan", width=25)
         table.add_column("Count", justify="right", style="green", width=10)
-        table.add_column("Status", style="yellow", width=30)
+        table.add_column("Status", style="yellow", width=35)
         
         table.add_row("Books", str(book_count), "📚 Textbooks in library")
+        table.add_row("Extracted Pages", str(extracted_pages), "📄 Pages with extracted text")
+        table.add_row("Extracted Images", str(extracted_images), "🖼️  Figures and diagrams")
+        table.add_row("Generated Chapters", str(chapter_count), "📖 AI-synthesized chapters")
         table.add_row("Notes", str(note_count), "📝 Study notes created")
         table.add_row("Flashcards", str(flashcard_count), "🗂️  Cards for review")
         table.add_row("Study Sessions", str(session_count), "⏱️  Tracked sessions")
         
         console.print(table)
+        
+        # Content extraction status
+        books_with_text = session.query(Book).filter(Book.text_extracted == True).count()
+        books_with_images = session.query(Book).filter(Book.images_extracted == True).count()
+        
+        console.print(f"\n[cyan]Content Extraction:[/cyan]")
+        console.print(f"  Books with extracted text: [green]{books_with_text}/{book_count}[/green]")
+        console.print(f"  Books with extracted images: [green]{books_with_images}/{book_count}[/green]")
         
         # Flashcard stats
         flashcard_stats = flashcard_manager.get_stats()
@@ -346,16 +362,107 @@ def dashboard():
         console.print(f"  Study time: [green]{study_stats['total_hours']} hours[/green]")
         console.print(f"  Topics: [yellow]{study_stats['unique_topics']}[/yellow]")
         
-        if flashcard_stats['due'] > 0:
-            console.print(f"\n[yellow]💡 You have {flashcard_stats['due']} flashcard(s) ready to review![/yellow]")
-            console.print(f"   Run: [cyan]python3 cli/main.py flashcards review[/cyan]")
-        else:
-            console.print("\n[green]✅ All caught up on flashcards! Great work![/green]")
+        if extracted_pages > 0:
+            console.print(f"\n[green]✅ Content extracted! Ready to generate chapters.[/green]")
+            console.print(f"   Run: [cyan]python3 cli/main.py chapter generate 'Subject' --book-ids 1[/cyan]")
         
         console.print("")
         
     finally:
         session.close()
+
+
+# Chapter generation commands
+@cli.group()
+def chapter():
+    """Generate comprehensive medical chapters from extracted content"""
+    pass
+
+
+@chapter.command()
+@click.argument('subject')
+@click.option('--book-ids', help='Comma-separated book IDs to use as sources', required=True)
+@click.option('--search-terms', help='Additional search terms (comma-separated)')
+def generate(subject, book_ids, search_terms):
+    """Generate a comprehensive chapter on a subject"""
+    try:
+        # Parse book IDs
+        book_id_list = [int(id.strip()) for id in book_ids.split(',')]
+        
+        # Parse search terms
+        search_term_list = None
+        if search_terms:
+            search_term_list = [term.strip() for term in search_terms.split(',')]
+        
+        rprint(f"[cyan]Generating chapter: {subject}[/cyan]")
+        rprint(f"  Using books: {book_id_list}")
+        if search_term_list:
+            rprint(f"  Search terms: {search_term_list}")
+        
+        # Generate chapter
+        chapter_obj = chapter_synthesizer.generate_chapter(
+            subject, book_id_list, search_term_list
+        )
+        
+        rprint(f"\n[green]✓[/green] Chapter generated successfully!")
+        rprint(f"  ID: {chapter_obj.id}")
+        rprint(f"  Title: {chapter_obj.title}")
+        rprint(f"  Source pages: {len(chapter_obj.source_pages.split(',')) if chapter_obj.source_pages else 0}")
+        rprint(f"  Source images: {len(chapter_obj.source_images.split(',')) if chapter_obj.source_images else 0}")
+        rprint(f"\n[yellow]View chapter with:[/yellow] python3 cli/main.py chapter view {chapter_obj.id}")
+    
+    except Exception as e:
+        rprint(f"[red]✗[/red] Error: {e}")
+        sys.exit(1)
+
+
+@chapter.command()
+def list():
+    """List all generated chapters"""
+    chapters = chapter_synthesizer.list_chapters()
+    
+    if not chapters:
+        rprint("[yellow]No chapters generated yet. Create one with 'chapter generate'[/yellow]")
+        return
+    
+    table = Table(title="📖 Generated Chapters")
+    table.add_column("ID", style="cyan")
+    table.add_column("Subject", style="green")
+    table.add_column("Sources", justify="right")
+    table.add_column("Images", justify="right")
+    table.add_column("Created")
+    
+    for ch in chapters:
+        source_count = len(ch.source_pages.split(',')) if ch.source_pages else 0
+        image_count = len(ch.source_images.split(',')) if ch.source_images else 0
+        
+        table.add_row(
+            str(ch.id),
+            ch.title,
+            str(source_count),
+            str(image_count),
+            ch.created_at.strftime("%Y-%m-%d")
+        )
+    
+    console.print(table)
+
+
+@chapter.command()
+@click.argument('chapter_id', type=int)
+def view(chapter_id):
+    """View a generated chapter"""
+    chapter_obj = chapter_synthesizer.get_chapter(chapter_id)
+    
+    if not chapter_obj:
+        rprint(f"[red]Chapter {chapter_id} not found[/red]")
+        sys.exit(1)
+    
+    console.print(f"\n[bold cyan]Chapter: {chapter_obj.title}[/bold cyan]\n")
+    console.print(f"[yellow]Created:[/yellow] {chapter_obj.created_at.strftime('%Y-%m-%d %H:%M:%S')}")
+    console.print(f"[yellow]Model:[/yellow] {chapter_obj.ai_model_used}")
+    console.print("\n" + "="*80 + "\n")
+    console.print(chapter_obj.content)
+    console.print("\n" + "="*80 + "\n")
 
 
 if __name__ == '__main__':

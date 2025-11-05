@@ -24,11 +24,76 @@ class Book(Base):
     author = Column(String(500))
     added_at = Column(DateTime, default=datetime.utcnow)
     total_pages = Column(Integer)
+    text_extracted = Column(Boolean, default=False)
+    images_extracted = Column(Boolean, default=False)
     notes = relationship("Note", back_populates="book", cascade="all, delete-orphan")
     flashcards = relationship("Flashcard", back_populates="book", cascade="all, delete-orphan")
+    extracted_pages = relationship("ExtractedPage", back_populates="book", cascade="all, delete-orphan")
+    extracted_images = relationship("ExtractedImage", back_populates="book", cascade="all, delete-orphan")
+    chapters = relationship("Chapter", back_populates="book", cascade="all, delete-orphan")
     
     def __repr__(self) -> str:
         return f"<Book(id={self.id}, title='{self.title}')>"
+
+
+class ExtractedPage(Base):
+    """Extracted text content from a PDF page."""
+    __tablename__ = 'extracted_pages'
+    
+    id = Column(Integer, primary_key=True)
+    book_id = Column(Integer, ForeignKey('books.id'), nullable=False)
+    page_number = Column(Integer, nullable=False)
+    text_content = Column(Text)
+    word_count = Column(Integer, default=0)
+    has_tables = Column(Boolean, default=False)
+    extracted_at = Column(DateTime, default=datetime.utcnow)
+    
+    book = relationship("Book", back_populates="extracted_pages")
+    
+    def __repr__(self) -> str:
+        return f"<ExtractedPage(book_id={self.book_id}, page={self.page_number})>"
+
+
+class ExtractedImage(Base):
+    """Extracted image or figure from PDF."""
+    __tablename__ = 'extracted_images'
+    
+    id = Column(Integer, primary_key=True)
+    book_id = Column(Integer, ForeignKey('books.id'), nullable=False)
+    page_number = Column(Integer, nullable=False)
+    image_path = Column(String(1000), nullable=False)
+    filename = Column(String(500))
+    width = Column(Float)
+    height = Column(Float)
+    size_kb = Column(Float)
+    annotation = Column(Text)  # AI-generated or manual annotation
+    extracted_at = Column(DateTime, default=datetime.utcnow)
+    
+    book = relationship("Book", back_populates="extracted_images")
+    
+    def __repr__(self) -> str:
+        return f"<ExtractedImage(id={self.id}, page={self.page_number})>"
+
+
+class Chapter(Base):
+    """AI-generated comprehensive medical chapter."""
+    __tablename__ = 'chapters'
+    
+    id = Column(Integer, primary_key=True)
+    book_id = Column(Integer, ForeignKey('books.id'), nullable=True)
+    title = Column(String(500), nullable=False)
+    subject = Column(String(500))
+    content = Column(Text)  # Synthesized chapter content
+    source_pages = Column(String(1000))  # Comma-separated page numbers
+    source_images = Column(String(1000))  # Comma-separated image IDs
+    created_at = Column(DateTime, default=datetime.utcnow)
+    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    ai_model_used = Column(String(100))
+    
+    book = relationship("Book", back_populates="chapters")
+    
+    def __repr__(self) -> str:
+        return f"<Chapter(id={self.id}, title='{self.title}')>"
 
 
 class Note(Base):
