@@ -2,7 +2,7 @@
 # StudyBuddy launcher script
 
 # Set the Python path to include the studybuddy directory
-export PYTHONPATH="/home/runner/work/studdybuddy-/studdybuddy-:$PYTHONPATH"
+export PYTHONPATH="/home/runner/work/studybuddy-/studybuddy-:$PYTHONPATH"
 
 # Run the CLI with all arguments
-python3 /home/runner/work/studdybuddy-/studdybuddy-/cli/main.py "$@"
+python3 /home/runner/work/studybuddy-/studybuddy-/cli/main.py "$@"

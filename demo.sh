@@ -7,8 +7,8 @@ echo "  StudyBuddy Demo - Neurosurgical Study"
 echo "========================================"
 echo ""
 
-export PYTHONPATH="/home/runner/work/studdybuddy-/studdybuddy-"
-CLI="python3 /home/runner/work/studdybuddy-/studdybuddy-/cli/main.py"
+export PYTHONPATH="/home/runner/work/studybuddy-/studybuddy-"
+CLI="python3 /home/runner/work/studybuddy-/studybuddy-/cli/main.py"
 
 echo "1. Creating study notes..."
 $CLI notes add "Cerebral Aneurysm" "Most common location is anterior communicating artery (AComA), followed by posterior communicating artery (PComA)" --tags "vascular,aneurysm"

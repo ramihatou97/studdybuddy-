@@ -18,6 +18,21 @@ class SearchService:
         """
         self.db_manager = db_manager
     
+    def _sanitize_query(self, query: str) -> str:
+        """
+        Sanitize search query to prevent SQL injection.
+        Escape special SQL LIKE characters.
+        
+        Args:
+            query: Raw search query
+        
+        Returns:
+            Sanitized query string
+        """
+        # Escape special LIKE characters
+        query = query.replace('%', r'\%').replace('_', r'\_')
+        return query
+    
     def search_all(self, query: str, limit: int = 20) -> Dict[str, List[Any]]:
         """
         Search across all content types.
@@ -29,26 +44,29 @@ class SearchService:
         Returns:
             Dictionary with results by type
         """
+        # Sanitize query
+        safe_query = self._sanitize_query(query)
+        
         session = self.db_manager.get_session()
         try:
             # Search books
             books = session.query(Book).filter(
-                (Book.title.ilike(f"%{query}%")) | 
-                (Book.author.ilike(f"%{query}%"))
+                (Book.title.ilike(f"%{safe_query}%")) | 
+                (Book.author.ilike(f"%{safe_query}%"))
             ).limit(limit).all()
             
             # Search notes
             notes = session.query(Note).filter(
-                (Note.topic.ilike(f"%{query}%")) | 
-                (Note.content.ilike(f"%{query}%")) |
-                (Note.tags.ilike(f"%{query}%"))
+                (Note.topic.ilike(f"%{safe_query}%")) | 
+                (Note.content.ilike(f"%{safe_query}%")) |
+                (Note.tags.ilike(f"%{safe_query}%"))
             ).limit(limit).all()
             
             # Search flashcards
             flashcards = session.query(Flashcard).filter(
-                (Flashcard.question.ilike(f"%{query}%")) | 
-                (Flashcard.answer.ilike(f"%{query}%")) |
-                (Flashcard.topic.ilike(f"%{query}%"))
+                (Flashcard.question.ilike(f"%{safe_query}%")) | 
+                (Flashcard.answer.ilike(f"%{safe_query}%")) |
+                (Flashcard.topic.ilike(f"%{safe_query}%"))
             ).limit(limit).all()
             
             return {

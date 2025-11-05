@@ -3,7 +3,6 @@ Command-line interface for StudyBuddy.
 Simple, intuitive commands for neurosurgical study management.
 """
 import sys
-from pathlib import Path
 
 import click
 from rich.console import Console
