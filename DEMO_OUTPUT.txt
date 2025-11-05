@@ -1,0 +1,82 @@
+===========================================
+  StudyBuddy Demo - All Features
+===========================================
+
+1. HELP COMMAND
+---------------
+Usage: main.py [OPTIONS] COMMAND [ARGS]...
+
+  StudyBuddy - Your Neurosurgical Study Companion 🧠
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  dashboard   Show your complete study dashboard
+  flashcards  Manage flashcards with spaced repetition
+  library     Manage your medical textbook library
+  notes       Manage your study notes
+  search      Search across all your content (books, notes, flashcards)
+  study       Track your study sessions
+
+2. NOTES LIST
+-------------
+                                                     📝 Your Notes                                                      
+┏━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┓
+┃ ID ┃ Topic               ┃ Content                                        ┃ Tags                        ┃ Created    ┃
+┡━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━┩
+│ 4  │ CSF Dynamics        │ CSF produced by choroid plexus at 20-25        │ physiology,csf              │ 2025-11-05 │
+│    │                     │ ml/hour. T...                                  │                             │            │
+│ 3  │ Brain Tumors        │ Glioblastoma is the most common primary        │ oncology,tumors             │ 2025-11-05 │
+│    │                     │ malignant ...                                  │                             │            │
+│ 2  │ Cerebral Aneurysm   │ Most common location is anterior communicating │ vascular,aneurysm           │ 2025-11-05 │
+│    │                     │ art...                                         │                             │            │
+│ 1  │ Temporal Craniotomy │ Standard approach with pterional craniotomy    │ surgery,temporal,craniotomy │ 2025-11-05 │
+│    │                     │ for ac...                                      │                             │            │
+└────┴─────────────────────┴────────────────────────────────────────────────┴─────────────────────────────┴────────────┘
+
+3. SEARCH RESULTS
+-----------------
+🔍 Found 2 result(s) for 'aneurysm'
+
+📝 Notes:
+  #2 Cerebral Aneurysm
+      Most common location is anterior communicating artery (AComA), followed by poste...
+
+🗂️  Flashcards:
+  #4 Pathology
+      Q: Most common cause of subarachnoid hemorrhage?...
+
+4. FLASHCARD STATISTICS
+-----------------------
+📊 Flashcard Statistics
+  Total: 4
+  Due for review: 4
+  Mastered: 0
+
+5. DASHBOARD VIEW
+-----------------
+
+📊 StudyBuddy Dashboard
+
+                           📈 Your Progress                           
+┏━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Category             ┃      Count ┃ Status                         ┃
+┡━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Books                │          0 │ 📚 Textbooks in library        │
+│ Notes                │          4 │ 📝 Study notes created         │
+│ Flashcards           │          4 │ 🗂️  Cards for review            │
+│ Study Sessions       │          0 │ ⏱️  Tracked sessions            │
+└──────────────────────┴────────────┴────────────────────────────────┘
+
+Flashcards:
+  Due for review: 4
+  Mastered: 0
+
+Last 7 Days:
+  Study time: 0.0 hours
+  Topics: 0
+
+💡 You have 4 flashcard(s) ready to review!
+   Run: python3 cli/main.py flashcards review
+
