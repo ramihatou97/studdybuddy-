@@ -1,0 +1,269 @@
+"""
+Command-line interface for StudyBuddy.
+Simple, intuitive commands for neurosurgical study management.
+"""
+import sys
+from pathlib import Path
+
+import click
+from rich.console import Console
+from rich.table import Table
+from rich import print as rprint
+
+from reference_library.models import DatabaseManager
+from reference_library.library_manager import LibraryManager
+from reference_library.notes_manager import NotesManager
+from reference_library.flashcard_manager import FlashcardManager
+from reference_library.study_tracker import StudyTracker
+from utils.config import get_config
+from utils.logger import logger
+
+# Initialize console for rich output
+console = Console()
+config = get_config()
+
+# Initialize managers
+db_manager = DatabaseManager(str(config.database.db_path))
+library_manager = LibraryManager(db_manager, config.library.books_dir)
+notes_manager = NotesManager(db_manager)
+flashcard_manager = FlashcardManager(db_manager)
+study_tracker = StudyTracker(db_manager)
+
+
+@click.group()
+def cli():
+    """StudyBuddy - Your Neurosurgical Study Companion 🧠"""
+    pass
+
+
+# Library commands
+@cli.group()
+def library():
+    """Manage your medical textbook library"""
+    pass
+
+
+@library.command()
+@click.argument('pdf_path', type=click.Path(exists=True))
+@click.option('--title', help='Book title')
+@click.option('--author', help='Book author')
+def add(pdf_path, title, author):
+    """Add a PDF book to your library"""
+    try:
+        book = library_manager.add_book(pdf_path, title, author)
+        rprint(f"[green]✓[/green] Added: {book.title}")
+        rprint(f"  Pages: {book.total_pages}")
+        rprint(f"  ID: {book.id}")
+    except Exception as e:
+        rprint(f"[red]✗[/red] Error: {e}")
+        sys.exit(1)
+
+
+@library.command()
+def list():
+    """List all books in your library"""
+    books = library_manager.list_books()
+    
+    if not books:
+        rprint("[yellow]No books in library yet. Add one with 'library add'[/yellow]")
+        return
+    
+    table = Table(title="📚 Your Library")
+    table.add_column("ID", style="cyan")
+    table.add_column("Title", style="green")
+    table.add_column("Author")
+    table.add_column("Pages", justify="right")
+    table.add_column("Added")
+    
+    for book in books:
+        table.add_row(
+            str(book.id),
+            book.title,
+            book.author or "-",
+            str(book.total_pages) if book.total_pages else "-",
+            book.added_at.strftime("%Y-%m-%d")
+        )
+    
+    console.print(table)
+
+
+@library.command()
+@click.argument('query')
+def search(query):
+    """Search books by title or author"""
+    books = library_manager.search_books(query)
+    
+    if not books:
+        rprint(f"[yellow]No books found matching '{query}'[/yellow]")
+        return
+    
+    for book in books:
+        rprint(f"[green]#{book.id}[/green] {book.title}")
+        if book.author:
+            rprint(f"  Author: {book.author}")
+
+
+# Notes commands
+@cli.group()
+def notes():
+    """Manage your study notes"""
+    pass
+
+
+@notes.command()
+@click.argument('topic')
+@click.argument('content')
+@click.option('--book-id', type=int, help='Related book ID')
+@click.option('--page', type=int, help='Page number')
+@click.option('--tags', help='Comma-separated tags')
+def add(topic, content, book_id, page, tags):
+    """Create a new study note"""
+    try:
+        note = notes_manager.create_note(topic, content, book_id, page, tags)
+        rprint(f"[green]✓[/green] Created note: {note.topic}")
+        rprint(f"  ID: {note.id}")
+    except Exception as e:
+        rprint(f"[red]✗[/red] Error: {e}")
+        sys.exit(1)
+
+
+@notes.command()
+@click.option('--book-id', type=int, help='Filter by book ID')
+def list(book_id):
+    """List all your notes"""
+    notes_list = notes_manager.list_notes(book_id)
+    
+    if not notes_list:
+        rprint("[yellow]No notes yet. Create one with 'notes add'[/yellow]")
+        return
+    
+    table = Table(title="📝 Your Notes")
+    table.add_column("ID", style="cyan")
+    table.add_column("Topic", style="green")
+    table.add_column("Content")
+    table.add_column("Tags")
+    table.add_column("Created")
+    
+    for note in notes_list:
+        content_preview = note.content[:50] + "..." if len(note.content) > 50 else note.content
+        table.add_row(
+            str(note.id),
+            note.topic,
+            content_preview,
+            note.tags or "-",
+            note.created_at.strftime("%Y-%m-%d")
+        )
+    
+    console.print(table)
+
+
+@notes.command()
+@click.argument('query')
+def search(query):
+    """Search notes by topic, content, or tags"""
+    notes_list = notes_manager.search_notes(query)
+    
+    if not notes_list:
+        rprint(f"[yellow]No notes found matching '{query}'[/yellow]")
+        return
+    
+    for note in notes_list:
+        rprint(f"[green]#{note.id}[/green] {note.topic}")
+        rprint(f"  {note.content[:100]}...")
+
+
+# Flashcards commands
+@cli.group()
+def flashcards():
+    """Manage flashcards with spaced repetition"""
+    pass
+
+
+@flashcards.command()
+@click.argument('question')
+@click.argument('answer')
+@click.option('--topic', help='Topic/category')
+@click.option('--book-id', type=int, help='Related book ID')
+def add(question, answer, topic, book_id):
+    """Create a new flashcard"""
+    try:
+        card = flashcard_manager.create_flashcard(question, answer, topic, book_id)
+        rprint(f"[green]✓[/green] Created flashcard")
+        rprint(f"  Topic: {topic or 'General'}")
+        rprint(f"  ID: {card.id}")
+    except Exception as e:
+        rprint(f"[red]✗[/red] Error: {e}")
+        sys.exit(1)
+
+
+@flashcards.command()
+@click.option('--topic', help='Filter by topic')
+@click.option('--limit', default=20, help='Number of cards to review')
+def review(topic, limit):
+    """Review due flashcards"""
+    cards = flashcard_manager.get_due_flashcards(topic, limit)
+    
+    if not cards:
+        rprint("[green]🎉 No flashcards due! Great job![/green]")
+        return
+    
+    rprint(f"[cyan]Review {len(cards)} flashcard(s)[/cyan]\n")
+    
+    reviewed = 0
+    for i, card in enumerate(cards, 1):
+        rprint(f"[bold]Card {i}/{len(cards)}[/bold]")
+        rprint(f"[yellow]Q:[/yellow] {card.question}")
+        input("Press Enter to see answer...")
+        rprint(f"[green]A:[/green] {card.answer}\n")
+        
+        quality = click.prompt(
+            "Rate your recall (0=forgot, 3=hard, 4=good, 5=easy)",
+            type=click.IntRange(0, 5)
+        )
+        
+        flashcard_manager.review_flashcard(card.id, quality)
+        reviewed += 1
+        rprint("")
+    
+    rprint(f"[green]✓[/green] Reviewed {reviewed} flashcard(s)")
+
+
+@flashcards.command()
+def stats():
+    """Show flashcard statistics"""
+    stats = flashcard_manager.get_stats()
+    rprint(f"[cyan]📊 Flashcard Statistics[/cyan]")
+    rprint(f"  Total: {stats['total']}")
+    rprint(f"  Due for review: {stats['due']}")
+    rprint(f"  Mastered: {stats['mastered']}")
+
+
+# Study commands
+@cli.group()
+def study():
+    """Track your study sessions"""
+    pass
+
+
+@study.command()
+@click.option('--days', default=7, help='Number of days to show')
+def stats(days):
+    """Show study statistics"""
+    stats = study_tracker.get_stats(days)
+    
+    rprint(f"[cyan]📈 Study Stats (Last {days} days)[/cyan]")
+    rprint(f"  Total sessions: {stats['total_sessions']}")
+    rprint(f"  Total time: {stats['total_hours']} hours ({stats['total_minutes']} min)")
+    rprint(f"  Average session: {stats['avg_session_minutes']} min")
+    rprint(f"  Notes created: {stats['total_notes']}")
+    rprint(f"  Flashcards reviewed: {stats['total_flashcards_reviewed']}")
+    rprint(f"  Topics covered: {stats['unique_topics']}")
+    
+    if stats['topics']:
+        rprint("\n[cyan]Topics:[/cyan]")
+        for topic in stats['topics']:
+            rprint(f"  • {topic}")
+
+
+if __name__ == '__main__':
+    cli()
