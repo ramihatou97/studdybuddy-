@@ -2281,3 +2281,363 @@ ernal (Pontine Cistern to Dorello's Canal)
 ```
 
 ---
+
+## CN X - VAGUS NERVE
+
+```
+├─ Type: Mixed - Motor + Sensory + Parasympathetic (MOST EXTENSIVE CN)
+│
+├─ Components
+│   ├─ Motor (Branchial motor):
+│   │   ├─ Pharynx: All pharyngeal muscles (except stylopharyngeus - CN IX, tensor veli palatini - CN V3)
+│   │   ├─ Larynx: All intrinsic laryngeal muscles (except cricothyroid - external branch)
+│   │   └─ Soft palate: Levator veli palatini, palatoglossus, palatopharyngeus
+│   │
+│   ├─ Sensory (General sensory):
+│   │   ├─ External ear: Concha, posterior EAC
+│   │   ├─ Dura: Posterior cranial fossa
+│   │   ├─ Pharynx: Hypopharynx
+│   │   └─ Larynx: Above and below vocal cords
+│   │
+│   ├─ Sensory (Special sensory - taste):
+│   │   └─ Epiglottis and vallecula (minimal contribution)
+│   │
+│   ├─ Visceral sensory:
+│   │   ├─ Aortic arch: Baroreceptors
+│   │   ├─ Aortic bodies: Chemoreceptors
+│   │   ├─ Heart, lungs, trachea, esophagus
+│   │   └─ GI tract: To splenic flexure
+│   │
+│   └─ Parasympathetic (EXTENSIVE - to splenic flexure):
+│       ├─ Heart: SA/AV nodes (↓HR)
+│       ├─ Lungs: Bronchial smooth muscle, mucus secretion
+│       ├─ GI tract: Esophagus to splenic flexure (peristalsis, secretion)
+│       └─ Note: Distal colon uses pelvic parasympathetics (S2-S4)
+│
+├─ Origin & Nuclei
+│   ├─ Motor nucleus:
+│   │   ├─ Nucleus ambiguus (medulla) - shared with CN IX, XI
+│   │   ├─ Supplies: Pharynx and larynx muscles
+│   │   └─ Somatotopic: Rostral (pharynx) → caudal (larynx)
+│   │
+│   ├─ Dorsal motor nucleus:
+│   │   ├─ Parasympathetic preganglionic neurons
+│   │   ├─ Location: Floor of 4th ventricle (dorsal medulla)
+│   │   └─ Supplies: Heart, lungs, GI tract
+│   │
+│   ├─ Nucleus of solitary tract:
+│   │   ├─ Visceral sensory: Aortic arch, thoracic/abdominal viscera
+│   │   ├─ Taste: Epiglottis (minimal)
+│   │   └─ Caudal portion (most caudal of all taste input)
+│   │
+│   └─ Spinal trigeminal nucleus:
+│       └─ General sensory: External ear, dura, pharynx, larynx
+│
+├─ Exit from Brainstem:
+│   ├─ Location: Postolivary sulcus (lateral medulla)
+│   ├─ Exits: Caudal to CN IX (in line with CN IX and CN XI)
+│   └─ Rootlets: 8-10 rootlets coalesce into single trunk
+│
+├─ Course & Major Branches
+│   │
+│   ├─ 1. Intracranial (Posterior Fossa)
+│   │   ├─ Course: Anterolaterally from medulla
+│   │   ├─ Length: ~25 mm
+│   │   ├─ Relations:
+│   │   │   ├─ CN IX: Rostral (parallel)
+│   │   │   ├─ CN XI: Caudal (parallel)
+│   │   │   └─ PICA: Loops nearby
+│   │   │
+│   │   └─ Exit: Jugular foramen (pars vascularis - posterolateral compartment with CN XI and IJV)
+│   │
+│   ├─ 2. Jugular Foramen
+│   │   ├─ Compartment: Pars vascularis (posterolateral) with CN XI and IJV
+│   │   ├─ Ganglia (TWO):
+│   │   │   ├─ Superior (jugular) ganglion:
+│   │   │   │   ├─ Location: Within jugular foramen
+│   │   │   │   ├─ General sensory: External ear, dura
+│   │   │   │   └─ Small ganglion
+│   │   │   │
+│   │   │   └─ Inferior (nodose) ganglion:
+│   │   │       ├─ Location: Just below jugular foramen (nodose ganglion fossa)
+│   │   │       ├─ Visceral sensory: Pharynx, larynx, thoracic/abdominal viscera
+│   │   │       ├─ Taste: Epiglottis
+│   │   │       └─ Larger ganglion (main sensory ganglion of CN X)
+│   │   │
+│   │   └─ First branch: Meningeal branch (recurrent dural branch)
+│   │       └─ Sensory: Posterior cranial fossa dura
+│   │
+│   ├─ 3. Extracranial (Neck to Abdomen)
+│   │   ├─ Course: Descends in carotid sheath (between ICA/CCA and IJV)
+│   │   ├─ Relations:
+│   │   │   ├─ ICA/CCA: Medial
+│   │   │   ├─ IJV: Lateral
+│   │   │   ├─ CN IX: Anterior (at upper neck)
+│   │   │   ├─ CN XI: Posterior (crosses CN X in neck)
+│   │   │   └─ CN XII: Crosses CN X anteriorly (in carotid triangle)
+│   │   │
+│   │   └─ Enters thorax: Through thoracic inlet
+│   │
+│   └─ Branches (Complex - Many!)
+│       │
+│       ├─ Auricular branch (Arnold's nerve):
+│       │   ├─ Origin: From superior ganglion
+│       │   ├─ Course: Passes through mastoid canaliculus to external ear
+│       │   ├─ Sensory: Concha, posterior EAC
+│       │   └─ Clinical: Ear-cough reflex (Arnold's reflex) - cough when ear canal stimulated
+│       │
+│       ├─ Pharyngeal branches:
+│       │   ├─ Origin: From inferior ganglion
+│       │   ├─ Course: To pharyngeal plexus (with CN IX)
+│       │   ├─ Motor: ALL pharyngeal muscles (except stylopharyngeus) via pharyngeal plexus
+│       │   │   ├─ Superior, middle, inferior constrictors
+│       │   │   └─ Palatal muscles (levator veli palatini, palatoglossus, palatopharyngeus)
+│       │   │
+│       │   └─ Clinical (CRITICAL!):
+│       │       ├─ Efferent limb of gag reflex
+│       │       ├─ Palatal elevation: "Ahh" → soft palate elevates
+│       │       ├─ Unilateral palsy: Uvula deviates AWAY from lesion (pulled by normal side)
+│       │       └─ Dysphagia: Difficulty swallowing (nasal regurgitation)
+│       │
+│       ├─ Superior Laryngeal Nerve (SLN):
+│       │   ├─ Origin: From inferior ganglion (high in neck)
+│       │   ├─ Divides into TWO branches:
+│       │   │
+│       │   ├─ Internal branch (Sensory):
+│       │   │   ├─ Course: Pierces thyrohyoid membrane with superior laryngeal artery
+│       │   │   ├─ Sensory: Larynx ABOVE vocal cords (supraglottis)
+│       │   │   ├─ Function: Protective (initiates cough reflex if foreign body)
+│       │   │   └─ Clinical: Loss → aspiration risk (no cough reflex above cords)
+│       │   │
+│       │   └─ External branch (Motor):
+│       │       ├─ Course: Descends on inferior pharyngeal constrictor toward cricothyroid muscle
+│       │       ├─ Motor: Cricothyroid muscle ONLY
+│       │       ├─ Function: Tenses vocal cords (lengthens, thins cords) → high-pitched phonation
+│       │       ├─ Clinical:
+│       │       │   ├─ Injury: Voice fatigue, loss of high pitch, difficulty projecting voice
+│       │       │   ├─ Risk: Thyroid surgery (near superior thyroid artery)
+│       │       │   └─ Bilateral injury: Monotone voice, vocal fatigue
+│       │       │
+│       │       └─ Surgical relevance:
+│       │           ├─ Thyroidectomy: Ligate superior thyroid artery branches individually (close to thyroid)
+│       │           ├─ Landmark: Runs with or near superior thyroid artery
+│       │           └─ Preservation: Critical for singers, teachers
+│       │
+│       ├─ Recurrent Laryngeal Nerve (RLN) - MOST CLINICALLY IMPORTANT BRANCH:
+│       │   │
+│       │   ├─ Course (ASYMMETRIC - KEY ANATOMY!):
+│       │   │   ├─ Right RLN:
+│       │   │   │   ├─ Recurs: Around right subclavian artery (at thoracic inlet level)
+│       │   │   │   ├─ Ascends: In tracheoesophageal groove
+│       │   │   │   ├─ Short course: ~5-8 cm
+│       │   │   │   └─ Less vulnerable (shorter, more superficial)
+│       │   │   │
+│       │   │   └─ Left RLN:
+│       │   │       ├─ Recurs: Around aortic arch (at level of ligamentum arteriosum)
+│       │   │       ├─ Descends: Into mediastinum (chest level)
+│       │   │       ├─ Ascends: In tracheoesophageal groove
+│       │   │       ├─ Long course: ~15-20 cm
+│       │   │       └─ More vulnerable: Aortic aneurysm, mediastinal masses, cardiac surgery
+│       │   │
+│       │   ├─ Entry to larynx:
+│       │   │   ├─ Posterior to cricothyroid joint
+│       │   │   └─ Divides: Into anterior and posterior branches
+│       │   │
+│       │   ├─ Motor: ALL intrinsic laryngeal muscles (except cricothyroid)
+│       │   │   ├─ Posterior cricoarytenoid (PCA): ONLY abductor (opens vocal cords)
+│       │   │   ├─ Lateral cricoarytenoid: Adductor (closes cords)
+│       │   │   ├─ Interarytenoid: Adductor (closes posterior glottis)
+│       │   │   ├─ Thyroarytenoid (vocalis): Relaxes cords (shortens, thickens)
+│       │   │   └─ CRITICAL: PCA is ONLY abductor - loss → airway obstruction
+│       │   │
+│       │   ├─ Sensory: Larynx BELOW vocal cords (subglottis, trachea)
+│       │   │
+│       │   └─ Clinical (EXTREMELY IMPORTANT):
+│       │       │
+│       │       ├─ Unilateral RLN palsy:
+│       │       │   ├─ Pathophysiology:
+│       │       │   │   ├─ ALL muscles paralyzed (except cricothyroid - SLN)
+│       │       │   │   ├─ PCA paralysis: Cannot abduct (open) cord
+│       │       │   │   ├─ Result: Vocal cord in paramedian position (near midline)
+│       │       │   │   └─ Contralateral cord: Compensates (crosses midline to meet paralyzed cord)
+│       │       │   │
+│       │       │   ├─ Presentation:
+│       │       │   │   ├─ Hoarseness: Breathy voice (incomplete glottic closure)
+│       │       │   │   ├─ Vocal fatigue: Cannot sustain speech
+│       │       │   │   ├─ Aspiration: Mild (liquids mainly)
+│       │       │   │   ├─ NO stridor: Airway patent (one cord mobile)
+│       │       │   │   └─ Ineffective cough: Cannot generate pressure
+│       │       │   │
+│       │       │   └─ Causes:
+│       │       │       ├─ Thyroid surgery: #1 cause (1-2% risk)
+│       │       │       ├─ Left RLN: Aortic aneurysm, mediastinal mass, cardiac surgery
+│       │       │       ├─ Lung cancer: Apical tumors
+│       │       │       ├─ Esophageal cancer
+│       │       │       └─ Idiopathic: Viral neuritis
+│       │       │
+│       │       ├─ Bilateral RLN palsy (LIFE-THREATENING):
+│       │       │   ├─ Pathophysiology:
+│       │       │   │   ├─ BOTH PCA paralyzed: Cannot abduct cords
+│       │       │   │   ├─ Both cords: In paramedian position
+│       │       │   │   ├─ Glottis: Nearly closed (very narrow airway)
+│       │       │   │   └─ Result: Severe airway obstruction
+│       │       │   │
+│       │       │   ├─ Presentation:
+│       │       │   │   ├─ Stridor: Inspiratory (life-threatening)
+│       │       │   │   ├─ Dyspnea: Severe, progressive
+│       │       │   │   ├─ Good voice: Paradoxically (cords meet at midline)
+│       │       │   │   └─ Emergency: May need tracheostomy
+│       │       │   │
+│       │       │   ├─ Causes:
+│       │       │   │   ├─ Thyroid surgery: Total thyroidectomy (0.5-1% bilateral injury)
+│       │       │   │   ├─ Malignancy: Thyroid cancer invading both RLNs
+│       │       │   │   └─ Neurologic: GBS, myasthenia, brainstem lesion
+│       │       │   │
+│       │       │   └─ Management (URGENT):
+│       │       │       ├─ Immediate: Tracheostomy if severe stridor
+│       │       │       ├─ Observation: If mild (6-12 months for recovery)
+│       │       │       └─ Permanent: Cordotomy or arytenoidectomy (widen airway, sacrifice voice)
+│       │       │
+│       │       └─ Surgical prevention (Thyroidectomy):
+│       │           ├─ Identify RLN: ALWAYS identify before ligating inferior thyroid artery
+│       │           ├─ Landmarks:
+│       │           │   ├─ Tracheoesophageal groove
+│       │           │   ├─ Inferior thyroid artery (RLN crosses artery - anterior, posterior, or between branches)
+│       │           │   └─ Berry's ligament (suspensory - RLN vulnerable here)
+│       │           │
+│       │           ├─ Intraoperative monitoring:
+│       │           │   ├─ EMG electrodes: In vocal cords (via ETT)
+│       │           │   ├─ Nerve stimulator: Confirm RLN identity
+│       │           │   └─ Continuous monitoring: Detect injury real-time
+│       │           │
+│       │           └─ Technique:
+│       │               ├─ Ligate inferior thyroid artery branches: Individually, close to thyroid (not in bulk)
+│       │               ├─ Trace RLN: From tracheoesophageal groove to larynx
+│       │               └─ Avoid traction: Gentle handling
+│       │
+│       ├─ Cardiac branches:
+│       │   ├─ Cervical cardiac branches: From vagus in neck
+│       │   ├─ Thoracic cardiac branches: From vagus in chest
+│       │   ├─ Cardiac plexus: Mix with sympathetics (T1-T4)
+│       │   ├─ Target: SA node, AV node
+│       │   └─ Function: Decreases HR, decreases AV conduction (↑PR interval)
+│       │
+│       ├─ Pulmonary branches:
+│       │   ├─ Anterior and posterior pulmonary plexuses
+│       │   ├─ Function: Bronchoconstriction, increased mucus secretion
+│       │   └─ Balance: Sympathetics cause bronchodilation
+│       │
+│       └─ Esophageal and Abdominal branches:
+│           ├─ Esophageal plexus: Network on esophagus
+│           ├─ Anterior vagal trunk (from left vagus): Supplies anterior stomach, liver
+│           ├─ Posterior vagal trunk (from right vagus): Supplies posterior stomach, celiac plexus
+│           ├─ Distribution: To splenic flexure via celiac and superior mesenteric plexuses
+│           └─ Function: Peristalsis, secretion (HCl, enzymes), pancreatic secretion
+│
+├─ Testing
+│   ├─ Palatal elevation:
+│   │   ├─ Test: "Say 'Ahh'" → observe soft palate elevation
+│   │   ├─ Normal: Symmetric elevation, uvula midline
+│   │   ├─ Unilateral palsy: Uvula deviates AWAY from lesion side
+│   │   └─ Pharyngeal branch affected
+│   │
+│   ├─ Gag reflex:
+│   │   ├─ Afferent: CN IX (sensation)
+│   │   ├─ Efferent: CN X (pharyngeal muscle contraction)
+│   │   └─ Absent efferent: CN X lesion (pharyngeal branch)
+│   │
+│   ├─ Voice and phonation:
+│   │   ├─ Listen: Voice quality (breathy, hoarse, strained)
+│   │   ├─ Sustained "Eee": Assess vocal cord function
+│   │   ├─ Hoarseness: RLN or SLN injury
+│   │   └─ Breathy voice: Unilateral vocal cord paralysis
+│   │
+│   └─ Laryngoscopy:
+│       ├─ Direct visualization: Vocal cord position and movement
+│       ├─ Normal: Both cords abduct (open) on inspiration, adduct (close) on phonation
+│       ├─ Unilateral paralysis: One cord immobile in paramedian position
+│       └─ Bilateral paralysis: Both cords immobile near midline (stridor)
+│
+├─ Clinical Syndromes
+│   │
+│   ├─ Recurrent Laryngeal Nerve Injury (See detailed section above)
+│   │   ├─ Most common CN X injury
+│   │   └─ Thyroid surgery #1 cause
+│   │
+│   ├─ Vocal Cord Paralysis (Causes by Location):
+│   │   │
+│   │   ├─ Central (brainstem):
+│   │   │   ├─ Nucleus ambiguus lesion
+│   │   │   ├─ Causes: Lateral medullary syndrome (Wallenberg), MS, tumor, syrinx
+│   │   │   └─ Associated: Other CN deficits (CN IX, XI), Horner's, ataxia
+│   │   │
+│   │   ├─ Skull base / jugular foramen:
+│   │   │   ├─ Vernet syndrome: CN IX, X, XI
+│   │   │   └─ Causes: Glomus jugulare, schwannoma, metastasis
+│   │   │
+│   │   ├─ Cervical (neck):
+│   │   │   ├─ Vagus trunk injury
+│   │   │   └─ Causes: Carotid endarterectomy, neck dissection, trauma
+│   │   │
+│   │   ├─ RLN - Cervical:
+│   │   │   ├─ Right RLN: Thyroid surgery, trauma
+│   │   │   └─ Left RLN: Aortic aneurysm, mediastinal mass, esophageal cancer
+│   │   │
+│   │   └─ RLN - Thoracic (left side only):
+│       │       └─ Lung cancer, mediastinal lymphadenopathy, cardiac surgery
+│       │
+│       └─ SLN Injury:
+│           ├─ External branch: Voice fatigue, loss of high pitch (thyroid surgery)
+│           └─ Internal branch: Aspiration risk (loss of supraglottic sensation)
+│
+└─ Surgical Considerations
+    │
+    ├─ Thyroidectomy (RLN Preservation - CRITICAL):
+    │   ├─ Injury rate: 1-2% transient, 0.5-1% permanent
+    │   ├─ Identification:
+    │   │   ├─ Tracheoesophageal groove: Most reliable landmark
+    │   │   ├─ Inferior thyroid artery: RLN crosses (variable relationship)
+    │   │   ├─ Berry's ligament: RLN most vulnerable (fixed, cannot retract)
+    │   │   └─ Trace: From below upward to laryngeal entry
+    │   │
+    │   ├─ Monitoring:
+    │   │   ├─ Intraoperative nerve monitoring (IONM): Standard of care
+    │   │   ├─ Stimulation: Identify nerve (0.5-1.0 mA threshold)
+    │   │   └─ Loss of signal (LOS): High risk - consider staged thyroidectomy
+    │   │
+    │   ├─ Technique:
+    │   │   ├─ Ligate inferior thyroid artery branches individually
+    │   │   ├─ Avoid traction: Neuropraxia from stretching
+    │   │   └─ Preserve blood supply: Gentle handling
+    │   │
+    │   └─ Management of injury:
+    │       ├─ Recognized intraop: Consider primary repair (microsurgical)
+    │       ├─ Unilateral: Observe 6-12 months (vocal therapy), medialization if no recovery
+    │       └─ Bilateral: Tracheostomy if airway obstruction
+    │
+    ├─ Carotid endarterectomy:
+    │   ├─ Vagus trunk: In carotid sheath (avoid injury)
+    │   ├─ Superior laryngeal nerve: Near superior thyroid artery
+    │   └─ Injury: Hoarseness (0.3-3%)
+    │
+    ├─ Mediastinal surgery:
+    │   ├─ Left RLN: At risk (aortic arch, ligamentum arteriosum)
+    │   ├─ Cardiac surgery: RLN injury rare but possible
+    │   └─ Esophagectomy: Bilateral RLN at risk
+    │
+    └─ Vocal cord medialization (Unilateral Paralysis):
+        ├─ Indications: Persistent hoarseness, aspiration after 6-12 months
+        ├─ Techniques:
+        │   ├─ Injection laryngoplasty: Inject filler into vocal cord (temporary or permanent)
+        │   ├─ Medialization thyroplasty (type I): Implant in thyroid cartilage pushes cord medially
+        │   └─ Arytenoid adduction: Rotate arytenoid medially (more complex)
+        │
+        ├─ Goals:
+        │   ├─ Improve glottic closure
+        │   ├─ Better voice quality
+        │   └─ Reduce aspiration
+        │
+        └─ Success: 80-90% improvement in voice and aspiration
+```
+
+---
