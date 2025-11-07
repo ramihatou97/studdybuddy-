@@ -1405,3 +1405,554 @@ ernal (Pontine Cistern to Dorello's Canal)
 ```
 
 ---
+
+## CN VIII - VESTIBULOCOCHLEAR NERVE
+
+```
+├─ Type: Special Sensory (Hearing + Balance/Spatial Orientation)
+│
+├─ Components (Two Distinct Divisions)
+│   ├─ Cochlear Division (Hearing):
+│   │   ├─ Function: Transmits auditory information from cochlea to brainstem
+│   │   ├─ Origin: Spiral ganglion (modiolus of cochlea)
+│   │   └─ Receptors: Inner and outer hair cells (organ of Corti)
+│   │
+│   └─ Vestibular Division (Balance):
+│       ├─ Function: Transmits balance/spatial orientation information
+│       ├─ Origin: Vestibular (Scarpa's) ganglion
+│       ├─ Receptors:
+│       │   ├─ Semicircular canals (3): Detect angular acceleration (head rotation)
+│       │   │   ├─ Horizontal (lateral) canal
+│       │   │   ├─ Anterior (superior) canal
+│       │   │   └─ Posterior canal
+│       │   │
+│       │   └─ Otolithic organs (2): Detect linear acceleration + gravity
+│       │       ├─ Utricle: Horizontal acceleration, head tilt
+│       │       └─ Saccule: Vertical acceleration
+│       │
+│       └─ Branches (from Scarpa's ganglion):
+│           ├─ Superior vestibular nerve: Anterior + horizontal canals, utricle
+│           └─ Inferior vestibular nerve: Posterior canal, saccule
+│
+├─ Origin & Nuclei
+│   ├─ Cochlear Division:
+│   │   ├─ Peripheral: Spiral ganglion (bipolar neurons in cochlea)
+│   │   ├─ Central: Cochlear nuclei (pontomedullary junction, lateral to inferior cerebellar peduncle)
+│   │   │   ├─ Dorsal cochlear nucleus
+│   │   │   └─ Ventral cochlear nucleus (anterior and posterior divisions)
+│   │   │
+│   │   └─ Ascending pathway:
+│   │       ├─ Cochlear nuclei → Superior olivary complex (pons) → Lateral lemniscus
+│   │       ├─ Inferior colliculus (midbrain) → Medial geniculate nucleus (thalamus)
+│   │       └─ Auditory cortex (superior temporal gyrus - Heschl's gyrus)
+│   │
+│   └─ Vestibular Division:
+│       ├─ Peripheral: Vestibular (Scarpa's) ganglion (in IAC)
+│       ├─ Central: Vestibular nuclei (pontomedullary junction, floor of 4th ventricle)
+│       │   ├─ Superior vestibular nucleus (Bechterew)
+│       │   ├─ Inferior vestibular nucleus (Roller)
+│       │   ├─ Medial vestibular nucleus (Schwalbe)
+│       │   └─ Lateral vestibular nucleus (Deiters)
+│       │
+│       └─ Connections:
+│           ├─ Cerebellum: Via inferior cerebellar peduncle (vestibulo-cerebellar)
+│           ├─ Ocular motor nuclei: MLF (vestibulo-ocular reflex - VOR)
+│           ├─ Spinal cord: Vestibulospinal tracts (balance, posture)
+│           └─ Cortex: Vestibular cortex (parietal-insular)
+│
+├─ Segments
+│   ├─ 1. Labyrinthine (Intralabyrinthine)
+│   │   ├─ Cochlear division: Within cochlea (modiolus)
+│   │   ├─ Vestibular division: Within vestibule and semicircular canals
+│   │   └─ Combine: At fundus of IAC
+│   │
+│   ├─ 2. Meatal (Internal Auditory Canal)
+│   │   ├─ Course: Lateral to medial through IAC (with CN VII)
+│   │   ├─ Length: 8-10 mm
+│   │   ├─ Organization within IAC:
+│   │   │   ├─ Anterior-superior: CN VII (facial)
+│   │   │   ├─ Anterior-inferior: Cochlear nerve
+│   │   │   ├─ Posterior-superior: Superior vestibular nerve
+│   │   │   └─ Posterior-inferior: Inferior vestibular nerve
+│   │   │
+│   │   ├─ Blood supply: Labyrinthine artery (AICA branch)
+│   │   │   └─ Occlusion → sudden hearing loss, vertigo
+│   │   │
+│   │   └─ Clinical:
+│   │       ├─ Acoustic neuroma: Originates from superior or inferior vestibular nerve
+│   │       ├─ Symptoms: Unilateral hearing loss, tinnitus, imbalance (NOT vertigo initially)
+│   │       └─ Compression: Nerve stretched over tumor
+│   │
+│   └─ 3. Cisternal (CPA Cistern)
+│       ├─ Course: Medially from IAC to pontomedullary junction
+│       ├─ Length: 15-24 mm
+│       ├─ Relations:
+│       │   ├─ CN VII: Immediately anterior-superior
+│       │   ├─ AICA: Loops in CPA (supplies CN VII-VIII)
+│       │   ├─ Flocculus: Cerebellum, posterior-inferior
+│       │   └─ Pons: Medial
+│       │
+│       └─ Clinical:
+│           ├─ CPA tumors: Acoustic neuroma (80%), meningioma (10%), epidermoid (5%)
+│           ├─ Vascular compression: AICA → vertigo, tinnitus (rare)
+│           └─ Trigeminal neuralgia + hearing loss: Consider CPA epidermoid
+│
+├─ Testing Methods
+│   │
+│   ├─ Hearing Assessment:
+│   │   │
+│   │   ├─ Bedside Tests:
+│   │   │   ├─ Whisper test: Whisper at arm's length, check if patient hears
+│   │   │   ├─ Finger rub: Rub fingers near each ear (compare sides)
+│   │   │   └─ Ticking watch: Hold watch near each ear
+│   │   │
+│   │   ├─ Tuning Fork Tests (512 Hz):
+│   │   │   │
+│   │   │   ├─ Weber Test:
+│   │   │   │   ├─ Technique: Place vibrating fork on forehead midline
+│   │   │   │   ├─ Normal: Sound equal both ears (or midline)
+│   │   │   │   ├─ Lateralization:
+│   │   │   │   │   ├─ To affected ear: Conductive hearing loss (CHL)
+│   │   │   │   │   │   └─ Bone conduction better than air (sound blocked by middle ear)
+│   │   │   │   │   │
+│   │   │   │   │   └─ To normal ear: Sensorineural hearing loss (SNHL)
+│   │   │   │   │       └─ Cochlea or CN VIII damaged on affected side
+│   │   │   │   │
+│   │   │   │   └─ Mnemonic: "Sound goes to the good ear in SNHL"
+│   │   │   │
+│   │   │   └─ Rinne Test:
+│   │   │       ├─ Technique: Compare air conduction (AC) vs bone conduction (BC)
+│   │   │       │   ├─ Step 1: Place fork on mastoid (bone conduction)
+│   │   │       │   ├─ Step 2: When can't hear, move to ear canal (air conduction)
+│   │   │       │   └─ Compare: Which is louder/longer?
+│   │   │       │
+│   │   │       ├─ Normal: AC > BC (air conduction better) = "Rinne positive"
+│   │   │       ├─ Conductive loss: BC > AC = "Rinne negative"
+│   │   │       │   └─ Causes: Otitis media, otosclerosis, ossicular chain disruption
+│   │   │       │
+│   │   │       └─ Sensorineural loss: AC > BC, but BOTH reduced
+│   │   │           └─ Causes: CN VIII damage, cochlear damage, presbycusis
+│   │   │
+│   │   ├─ Audiometry (Formal Testing):
+│   │   │   ├─ Pure tone audiometry (PTA):
+│   │   │   │   ├─ Test: Thresholds at different frequencies (250-8000 Hz)
+│   │   │   │   ├─ Normal: 0-25 dB across all frequencies
+│   │   │   │   ├─ CHL: Air conduction worse than bone (air-bone gap)
+│   │   │   │   └─ SNHL: Both air and bone conduction impaired (no gap)
+│   │   │   │
+│   │   │   ├─ Speech audiometry:
+│   │   │   │   ├─ Speech reception threshold (SRT): Quietest speech understood
+│   │   │   │   └─ Word recognition score (WRS): % words correctly identified
+│   │   │   │
+│   │   │   └─ Tympanometry:
+│   │   │       ├─ Measures: Middle ear compliance (eardrum mobility)
+│   │   │       └─ Abnormal: Middle ear effusion, ossicular fixation
+│   │   │
+│   │   └─ Brainstem Auditory Evoked Potentials (BAEP):
+│   │       ├─ Test: Electrical response to click stimuli (0-10 ms)
+│   │       ├─ Waves:
+│   │       │   ├─ Wave I: Distal CN VIII (cochlea)
+│   │       │   ├─ Wave II: Proximal CN VIII (CPA)
+│   │       │   ├─ Wave III: Cochlear nucleus
+│   │       │   ├─ Wave IV: Superior olivary complex
+│   │       │   └─ Wave V: Lateral lemniscus, inferior colliculus
+│   │       │
+│   │       ├─ Uses:
+│   │       │   ├─ Acoustic neuroma detection: Prolonged I-V interpeak latency
+│   │       │   ├─ Brainstem lesions: Abnormal waves III-V
+│   │       │   └─ Intraoperative monitoring: Detect CN VIII injury during surgery
+│   │       │
+│   │       └─ Sensitivity: 95% for acoustic neuromas >1 cm
+│   │
+│   └─ Vestibular Assessment:
+│       │
+│       ├─ Bedside Tests:
+│       │   ├─ Nystagmus examination:
+│       │   │   ├─ Spontaneous nystagmus: Without head movement
+│       │   │   │   ├─ Horizontal: Vestibular (peripheral or central)
+│       │   │   │   ├─ Vertical: Central (brainstem) - RED FLAG
+│       │   │   │   └─ Rotatory: Peripheral (labyrinth)
+│       │   │   │
+│       │   │   ├─ Direction: Named by fast phase (compensatory beat)
+│       │   │   ├─ Peripheral vs central:
+│       │   │   │   ├─ Peripheral: Horizontal/rotatory, suppressed by visual fixation
+│       │   │   │   └─ Central: Vertical, NOT suppressed by fixation
+│       │   │   │
+│       │   │   └─ Frenzel goggles: +20 diopter lenses (prevents fixation)
+│       │   │
+│       │   ├─ Head Impulse Test (HIT):
+│       │   │   ├─ Tests: Vestibulo-ocular reflex (VOR)
+│       │   │   ├─ Technique:
+│       │   │   │   ├─ Patient fixates on examiner's nose
+│       │   │   │   ├─ Rapid head turn (10-20°) to left or right
+│       │   │   │   └─ Observe: Eyes should stay fixed on target
+│       │   │   │
+│       │   │   ├─ Normal: Eyes remain on target (VOR intact)
+│       │   │   └─ Abnormal: Eyes move with head, then corrective saccade back
+│       │   │       └─ Indicates: Peripheral vestibular loss (semicircular canal dysfunction)
+│       │   │
+│       │   ├─ Dix-Hallpike Maneuver:
+│       │   │   ├─ Tests: Benign paroxysmal positional vertigo (BPPV)
+│       │   │   ├─ Technique:
+│       │   │   │   ├─ Patient sits on exam table, head turned 45° to test side
+│       │   │   │   ├─ Rapidly lie patient back with head hanging 30° below horizontal
+│       │   │   │   ├─ Observe: Eyes for nystagmus (30-60 seconds)
+│       │   │   │   └─ Ask: "Are you dizzy?"
+│       │   │   │
+│       │   │   ├─ Positive (BPPV):
+│       │   │   │   ├─ Upbeating-torsional nystagmus (toward affected ear)
+│       │   │   │   ├─ Latency: 5-20 seconds after positioning
+│       │   │   │   ├─ Duration: 10-40 seconds (fatigable)
+│       │   │   │   └─ Vertigo: Patient reports severe spinning
+│       │   │   │
+│       │   │   └─ Indicates: Posterior canal BPPV (most common)
+│       │   │
+│       │   ├─ Romberg Test:
+│       │   │   ├─ Technique: Stand feet together, arms at side, eyes closed
+│       │   │   ├─ Normal: Minimal sway
+│       │   │   ├─ Abnormal: Significant sway or fall
+│       │   │   └─ Indicates: Proprioceptive OR vestibular deficit (not specific)
+│       │   │
+│       │   └─ Fukuda (Unterberger) Test:
+│       │       ├─ Technique: March in place 50 steps, eyes closed, arms forward
+│       │       ├─ Normal: Minimal rotation (<30°)
+│       │       └─ Abnormal: Rotation >30° toward affected ear (vestibular loss)
+│       │
+│       └─ Formal Vestibular Testing:
+│           ├─ Videonystagmography (VNG):
+│           │   ├─ Replaces: Electronystagmography (ENG)
+│           │   ├─ Tests:
+│           │   │   ├─ Spontaneous/gaze-evoked nystagmus
+│           │   │   ├─ Saccades, smooth pursuit
+│           │   │   ├─ Optokinetic nystagmus
+│           │   │   └─ Caloric testing (see below)
+│           │   │
+│           │   └─ Identifies: Peripheral vs central vestibular pathology
+│           │
+│           ├─ Caloric Testing:
+│           │   ├─ Technique:
+│           │   │   ├─ Irrigate each ear with warm (44°C) and cool (30°C) water
+│           │   │   ├─ Creates: Convection current in horizontal semicircular canal
+│           │   │   ├─ Normal: Nystagmus toward warm ear, away from cool ear
+│           │   │   └─ Mnemonic: "COWS" - Cold Opposite, Warm Same (fast phase)
+│           │   │
+│           │   ├─ Reduced response: Peripheral vestibular loss (vestibular neuritis, labyrinthitis)
+│           │   ├─ No response: Complete vestibular loss (severe neuritis, labyrinthectomy)
+│           │   └─ Bilateral reduced: Ototoxicity (gentamicin), bilateral Meniere's
+│           │
+│           ├─ Rotary Chair Testing:
+│           │   ├─ Tests: VOR function across range of frequencies
+│           │   └─ Useful: Bilateral vestibular loss, monitor recovery
+│           │
+│           └─ Vestibular Evoked Myogenic Potentials (VEMP):
+│               ├─ Tests: Otolithic function (saccule and utricle)
+│               ├─ cVEMP: Cervical VEMP (saccule, inferior vestibular nerve)
+│               ├─ oVEMP: Ocular VEMP (utricle, superior vestibular nerve)
+│               └─ Uses: Superior canal dehiscence, Meniere's disease
+│
+├─ Clinical Syndromes
+│   │
+│   ├─ Hearing Loss (Categorization)
+│   │   │
+│   │   ├─ Conductive Hearing Loss (CHL):
+│   │   │   ├─ Pathology: External or middle ear (before cochlea)
+│   │   │   ├─ Weber: Lateralizes to affected ear
+│   │   │   ├─ Rinne: Bone conduction > air conduction (Rinne negative)
+│   │   │   │
+│   │   │   └─ Causes:
+│   │   │       ├─ Cerumen impaction: Wax buildup
+│   │   │       ├─ Otitis externa: Swimmer's ear
+│   │   │       ├─ Otitis media: Middle ear infection/fluid
+│   │   │       ├─ Tympanic membrane perforation: Trauma, infection
+│   │   │       ├─ Otosclerosis: Stapes fixation
+│   │   │       └─ Ossicular chain disruption: Trauma
+│   │   │
+│   │   ├─ Sensorineural Hearing Loss (SNHL):
+│   │   │   ├─ Pathology: Cochlea or CN VIII (after middle ear)
+│   │   │   ├─ Weber: Lateralizes to normal ear
+│   │   │   ├─ Rinne: Air > bone, but both reduced (Rinne positive, but abnormal thresholds)
+│   │   │   │
+│   │   │   └─ Causes:
+│   │   │       ├─ Presbycusis: Age-related (high frequencies first)
+│   │   │       ├─ Noise-induced: Loud noise exposure (4000 Hz notch)
+│   │   │       ├─ Ototoxicity: Aminoglycosides (gentamicin), cisplatin, loop diuretics
+│   │   │       ├─ Meniere's disease: Endolymphatic hydrops (see below)
+│   │   │       ├─ Acoustic neuroma: Slowly progressive, unilateral
+│   │   │       ├─ Sudden SNHL: Vascular (labyrinthine artery), viral
+│   │   │       ├─ Meningitis: Bacterial (especially pneumococcal)
+│   │   │       └─ Autoimmune: AIED (autoimmune inner ear disease)
+│   │   │
+│   │   └─ Mixed Hearing Loss:
+│   │       └─ Both conductive and sensorineural components
+│   │
+│   ├─ Acoustic Neuroma (Vestibular Schwannoma)
+│   │   ├─ Tumor: Benign schwannoma from CN VIII (90% from superior vestibular nerve)
+│   │   ├─ Incidence: 1 per 100,000 per year
+│   │   ├─ Location: IAC and/or CPA
+│   │   │
+│   │   ├─ Presentation (Slow Growth):
+│   │   │   ├─ Hearing loss: GRADUAL, unilateral, SNHL (most common symptom - 95%)
+│   │   │   ├─ Tinnitus: Unilateral, high-pitched (70%)
+│   │   │   ├─ Imbalance: Chronic, not acute vertigo (60%)
+│   │   │   │   └─ Central compensation: Gradual loss allows adaptation
+│   │   │   │
+│   │   │   ├─ Large tumors (>3 cm):
+│   │   │   │   ├─ Facial weakness: CN VII compressed (20%)
+│   │   │   │   ├─ Facial numbness: CN V compressed (10%)
+│   │   │   │   ├─ Hydrocephalus: 4th ventricle compression (rare)
+│   │   │   │   └─ Ataxia: Cerebellar compression (rare)
+│   │   │   │
+│   │   │   └─ NOT acute vertigo: Slow growth allows compensation
+│   │   │
+│   │   ├─ Workup:
+│   │   │   ├─ Audiometry: SNHL, poor word recognition (disproportionate to PTA)
+│   │   │   ├─ BAEP: Prolonged I-V interpeak latency (>4.4 ms)
+│   │   │   ├─ MRI with gadolinium (GOLD STANDARD):
+│   │   │   │   ├─ T1 + contrast: Enhances brightly (schwannoma)
+│   │   │   │   ├─ Size: Measure IAC + CPA components
+│   │   │   │   └─ Can detect: Tumors as small as 2-3 mm
+│   │   │   │
+│   │   │   └─ If bilateral: Think neurofibromatosis type 2 (NF2)
+│   │   │
+│   │   ├─ Management:
+│   │   │   ├─ Observation: Small tumors (<1.5 cm), elderly, asymptomatic
+│   │   │   │   └─ Serial MRI: Every 6-12 months (30-50% don't grow)
+│   │   │   │
+│   │   │   ├─ Stereotactic radiosurgery (Gamma Knife):
+│   │   │   │   ├─ Indication: Small-medium tumors (<3 cm), elderly, comorbidities
+│   │   │   │   ├─ Dose: 12-13 Gy to margin
+│   │   │   │   ├─ Control rate: 90-95% at 5 years
+│   │   │   │   ├─ Facial nerve preservation: 95-98%
+│   │   │   │   ├─ Hearing preservation: 50-70% (if serviceable at baseline)
+│   │   │   │   └─ Limitation: Tumor doesn't shrink immediately (may expand first)
+│   │   │   │
+│   │   │   └─ Microsurgery:
+│   │   │       ├─ Indication: Large tumors (>3 cm), young patients, growing tumors
+│   │   │       ├─ Approaches: Translabyrinthine, retrosigmoid, middle fossa (see CN VII)
+│   │   │       ├─ Goal: Gross total resection + facial nerve preservation
+│   │   │       └─ Outcomes: See CN VII surgical section above
+│   │   │
+│   │   └─ NF2 (Neurofibromatosis Type 2):
+│   │       ├─ Genetics: NF2 gene mutation (chromosome 22q12)
+│   │       ├─ Hallmark: BILATERAL acoustic neuromas (diagnostic)
+│   │       ├─ Other tumors: Meningiomas, ependymomas, spinal schwannomas
+│   │       └─ Management: Preserve hearing as long as possible (eventual bilateral deafness)
+│   │
+│   ├─ Meniere's Disease (Endolymphatic Hydrops)
+│   │   ├─ Definition: Inner ear disorder with endolymphatic hydrops (fluid buildup)
+│   │   ├─ Prevalence: 200 per 100,000
+│   │   ├─ Age: 40-60 years
+│   │   │
+│   │   ├─ Pathophysiology:
+│   │   │   ├─ Endolymphatic hydrops: Increased endolymph pressure
+│   │   │   ├─ Rupture: Reissner's membrane ruptures → endolymph/perilymph mix
+│   │   │   ├─ High potassium: Endolymph (high K+) damages hair cells
+│   │   │   └─ Progressive: Repeated episodes → permanent SNHL
+│   │   │
+│   │   ├─ Classic Triad (Meniere's Attack):
+│   │   │   ├─ 1. Vertigo: Episodic, spontaneous, severe (30 min - 12 hours)
+│   │   │   │   ├─ Rotational vertigo (room spinning)
+│   │   │   │   ├─ Nausea, vomiting
+│   │   │   │   └─ Between attacks: Symptom-free or mild imbalance
+│   │   │   │
+│   │   │   ├─ 2. Hearing loss: Fluctuating, unilateral, SNHL (low frequencies initially)
+│   │   │   │   ├─ Early: Hearing recovers between attacks
+│   │   │   │   └─ Late: Permanent hearing loss
+│   │   │   │
+│   │   │   └─ 3. Tinnitus: Unilateral, low-pitched roaring
+│   │   │       └─ Worsens during attacks
+│   │   │
+│   │   ├─ Additional symptoms:
+│   │   │   ├─ Aural fullness: Ear pressure/fullness (often precedes attack)
+│   │   │   ├─ Tumarkin attacks: Sudden falls without warning ("drop attacks") - late stage
+│   │   │   └─ Bilateral: 30-40% eventually develop bilateral disease
+│   │   │
+│   │   ├─ Diagnosis (Clinical):
+│   │   │   ├─ Criteria (AAO-HNS):
+│   │   │   │   ├─ ≥2 episodes of vertigo (20 min - 12 hours)
+│   │   │   │   ├─ Documented SNHL on audiogram (low-mid frequencies)
+│   │   │   │   ├─ Tinnitus or aural fullness
+│   │   │   │   └─ Not better explained by another diagnosis
+│   │   │   │
+│   │   │   ├─ Audiometry: SNHL (low frequencies), fluctuating
+│   │   │   ├─ Glycerol test: Improvement in hearing after glycerol (osmotic agent)
+│   │   │   └─ MRI: Rule out acoustic neuroma (gadolinium contrast)
+│   │   │
+│   │   ├─ Treatment:
+│   │   │   ├─ Acute attack:
+│   │   │   │   ├─ Vestibular suppressants: Meclizine 25-50 mg, diazepam 2-5 mg
+│   │   │   │   ├─ Antiemetics: Ondansetron, promethazine
+│   │   │   │   └─ Rest: Dark, quiet room
+│   │   │   │
+│   │   │   ├─ Prophylaxis (between attacks):
+│   │   │   │   ├─ Dietary: Low salt (<2 g/day), avoid caffeine/alcohol
+│   │   │   │   ├─ Diuretics: Hydrochlorothiazide 25 mg daily (reduce endolymph)
+│   │   │   │   └─ Betahistine: 16-48 mg TID (not FDA approved in US, used in Europe)
+│   │   │   │
+│   │   │   ├─ Refractory (medical failure):
+│   │   │   │   ├─ Intratympanic gentamicin: Chemical labyrinthectomy (80% success)
+│   │   │   │   │   ├─ Injections: 1-3 doses through tympanic membrane
+│   │   │   │   │   ├─ Mechanism: Ablates vestibular hair cells (NOT cochlear)
+│   │   │   │   │   ├─ Benefit: Stops vertigo attacks
+│   │   │   │   │   └─ Risk: Hearing loss (10-30%), too much vestibular loss
+│   │   │   │   │
+│   │   │   │   ├─ Intratympanic steroids: Less ablative (60% success, safer)
+│   │   │   │   │
+│   │   │   │   └─ Surgical options:
+│   │   │   │       ├─ Endolymphatic sac decompression: Controversial efficacy
+│   │   │   │       ├─ Vestibular nerve section: Definitive, preserves hearing
+│   │   │   │       └─ Labyrinthectomy: If no useful hearing (100% vertigo control)
+│   │   │   │
+│   │   │   └─ Prognosis:
+│   │   │       ├─ Vertigo: 60-80% improve with medical management
+│   │   │       ├─ Hearing: Progressive SNHL over years (often severe/profound)
+│   │   │       └─ "Burned out" Meniere's: Late stage, no more vertigo, severe hearing loss
+│   │   │
+│   │   └─ Differential:
+│   │       ├─ Vestibular migraine: Vertigo + migraine, no hearing loss
+│   │       ├─ Acoustic neuroma: Gradual SNHL, no episodic vertigo
+│   │       └─ Autoimmune inner ear disease: Bilateral, rapid progression
+│   │
+│   ├─ Vestibular Neuritis
+│   │   ├─ Definition: Acute inflammation of vestibular nerve (NOT cochlear)
+│   │   ├─ Etiology: Viral (HSV-1 most likely)
+│   │   ├─ Age: Any age, peak 30-60 years
+│   │   │
+│   │   ├─ Presentation:
+│   │   │   ├─ Acute vertigo: SEVERE, constant (not episodic)
+│   │   │   │   ├─ Onset: Sudden (over hours)
+│   │   │   │   ├─ Duration: Days (peak 24-48 hours, gradual improvement over weeks)
+│   │   │   │   ├─ Nausea, vomiting: Severe
+│   │   │   │   └─ Cannot stand/walk: Initially
+│   │   │   │
+│   │   │   ├─ Nystagmus: Horizontal, toward normal ear (fast phase)
+│   │   │   │   └─ Suppressed: By visual fixation (peripheral pattern)
+│   │   │   │
+│   │   │   ├─ NO hearing loss: Key distinguishing feature!
+│   │   │   ├─ NO neurologic signs: No diplopia, dysarthria, ataxia
+│   │   │   │
+│   │   │   └─ Prodrome: URI symptoms (50%)
+│   │   │
+│   │   ├─ Diagnosis:
+│   │   │   ├─ Clinical: Acute vertigo + nystagmus + NO hearing loss
+│   │   │   ├─ Head impulse test: Positive (corrective saccade) toward affected ear
+│   │   │   ├─ Caloric testing: Reduced/absent response on affected side
+│   │   │   └─ MRI: If atypical (rule out stroke) - usually not needed
+│   │   │
+│   │   ├─ Treatment:
+│   │   │   ├─ Acute (first 3 days):
+│   │   │   │   ├─ Vestibular suppressants: Meclizine 25 mg TID, diazepam 2 mg TID
+│   │   │   │   ├─ Antiemetics: Ondansetron, promethazine
+│   │   │   │   ├─ Corticosteroids: Methylprednisolone 100 mg daily x 3 days, taper over 2 weeks
+│   │   │   │   │   └─ Evidence: May improve recovery
+│   │   │   │   │
+│   │   │   │   └─ Antivirals: Controversial (some use acyclovir, limited evidence)
+│   │   │   │
+│   │   │   ├─ Subacute (after 3 days):
+│   │   │   │   ├─ STOP vestibular suppressants: Delays central compensation
+│   │   │   │   └─ Vestibular rehabilitation: Physical therapy (promotes adaptation)
+│   │   │   │
+│   │   │   └─ Recovery:
+│   │   │       ├─ Most patients: Significant improvement in 1-2 weeks
+│   │   │       ├─ Residual imbalance: 20-30% (especially with head movement)
+│   │   │       └─ Complete recovery: 80% by 6 months
+│   │   │
+│   │   └─ Differential:
+│   │       ├─ Labyrinthitis: Vestibular neuritis + hearing loss
+│   │       ├─ Posterior circulation stroke: CENTRAL signs (vertical nystagmus, ataxia, diplopia)
+│   │       └─ Meniere's disease: Episodic (not constant), hearing loss, shorter duration
+│   │
+│   └─ Benign Paroxysmal Positional Vertigo (BPPV)
+│       ├─ Definition: Vertigo triggered by head position changes (canalithiasis)
+│       ├─ Most common cause of vertigo: 20-30% of all vertigo cases
+│       ├─ Age: >50 years (can occur at any age)
+│       │
+│       ├─ Pathophysiology:
+│       │   ├─ Otoconia (calcium carbonate crystals): Dislodge from utricle
+│       │   ├─ Enter: Semicircular canal (usually posterior canal - 85%)
+│       │   ├─ Canalithiasis: Free-floating crystals in canal
+│       │   ├─ Head movement: Crystals move → endolymph flow → cupula deflection
+│       │   └─ Result: Inappropriate vestibular signal → vertigo
+│       │
+│       ├─ Causes:
+│       │   ├─ Idiopathic: 50% (spontaneous)
+│       │   ├─ Head trauma: 15-20%
+│       │   ├─ Post-vestibular neuritis: 15%
+│       │   ├─ Post-ear surgery
+│       │   └─ Prolonged bed rest
+│       │
+│       ├─ Presentation:
+│       │   ├─ Vertigo: Brief (10-60 seconds), triggered by head position
+│       │   │   ├─ Triggers: Rolling in bed, looking up, bending forward
+│       │   │   ├─ Severe: Room spinning
+│       │   │   ├─ Nausea: Common (vomiting rare)
+│       │   │   └─ Between episodes: No vertigo (symptom-free)
+│       │   │
+│       │   ├─ NO hearing loss, NO tinnitus, NO neurologic signs
+│       │   │
+│       │   └─ Posterior canal BPPV (most common):
+│       │       └─ Dix-Hallpike: Positive (upbeating-torsional nystagmus)
+│       │
+│       ├─ Diagnosis:
+│       │   ├─ Dix-Hallpike maneuver: Positive for posterior canal BPPV
+│       │   ├─ Supine roll test: For horizontal canal BPPV
+│       │   └─ Characteristics:
+│       │       ├─ Latency: 5-20 seconds
+│       │       ├─ Duration: 10-60 seconds
+│       │       ├─ Fatigability: Lessens with repeated testing
+│       │       └─ Nystagmus direction: Identifies affected canal
+│       │
+│       ├─ Treatment:
+│       │   │
+│       │   ├─ Posterior canal BPPV (85%):
+│       │   │   ├─ Epley maneuver (canalith repositioning):
+│       │   │   │   ├─ Purpose: Move otoconia out of posterior canal back to utricle
+│       │   │   │   ├─ Steps (5 positions, each hold 30-60 seconds):
+│       │   │   │   │   ├─ 1. Dix-Hallpike position (affected ear down)
+│       │   │   │   │   ├─ 2. Turn head 90° to opposite side
+│       │   │   │   │   ├─ 3. Roll onto opposite shoulder (face down)
+│       │   │   │   │   ├─ 4. Sit up with head turned
+│       │   │   │   │   └─ 5. Return to neutral
+│       │   │   │   │
+│       │   │   │   └─ Success rate: 80-90% with 1-2 treatments
+│       │   │   │
+│       │   │   └─ Semont maneuver: Alternative (similar efficacy)
+│       │   │
+│       │   ├─ Horizontal canal BPPV (10-15%):
+│       │   │   └─ Barbecue roll maneuver: Serial 90° rolls
+│       │   │
+│       │   ├─ Medications: NOT effective (vestibular suppressants don't work for BPPV)
+│       │   │
+│       │   ├─ Vestibular rehabilitation: If repositioning fails
+│       │   │
+│       │   └─ Surgery (RARE, <1%): Posterior canal occlusion (if refractory)
+│       │
+│       └─ Prognosis:
+│           ├─ Resolution: 80-90% with Epley maneuver (1-2 treatments)
+│           ├─ Recurrence: 50% within 5 years
+│           └─ Self-limited: Many cases resolve spontaneously over weeks
+│
+└─ Surgical Considerations
+    ├─ Acoustic neuroma surgery: See CN VII section (extensive overlap)
+    │
+    ├─ Labyrinthectomy:
+    │   ├─ Indication: Refractory Meniere's with non-serviceable hearing
+    │   ├─ Technique: Remove membranous labyrinth (destroy vestibular + cochlear)
+    │   ├─ Success: 100% vertigo control
+    │   └─ Downside: Permanent complete hearing loss on that side
+    │
+    ├─ Vestibular nerve section:
+    │   ├─ Indication: Refractory Meniere's with serviceable hearing
+    │   ├─ Approach: Retrosigmoid craniotomy
+    │   ├─ Technique: Section vestibular nerve, preserve cochlear nerve
+    │   ├─ Success: 95% vertigo control
+    │   └─ Preservation: Hearing preserved in 90%
+    │
+    └─ Cochlear implantation:
+        ├─ Indication: Bilateral severe-profound SNHL, poor word recognition
+        ├─ Device: Electrode array inserted into cochlea (stimulates auditory nerve)
+        ├─ Success: Most patients understand speech (with training)
+        └─ Contraindications: CN VIII transected, cochlear ossification, cochlear aplasia
+```
+
+---
