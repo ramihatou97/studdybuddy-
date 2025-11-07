@@ -2641,3 +2641,386 @@ ernal (Pontine Cistern to Dorello's Canal)
 ```
 
 ---
+
+## CN XI - ACCESSORY NERVE (SPINAL ACCESSORY)
+
+```
+├─ Type: Motor (Pure Motor Nerve)
+│
+├─ Components (TWO ROOTS - But Cranial Root Joins Vagus)
+│   ├─ Cranial root (Minor, often considered part of vagus):
+│   │   ├─ Origin: Nucleus ambiguus (caudal medulla)
+│   │   ├─ Function: Joins vagus → innervates pharynx/larynx muscles
+│   │   └─ Clinical: Not truly "accessory" function (integrated with vagus)
+│   │
+│   └─ Spinal root (MAJOR, "true" accessory nerve):
+│       ├─ Origin: Spinal accessory nucleus (C1-C5/C6 spinal cord)
+│       ├─ Location: Ventral horn of cervical spinal cord
+│       └─ Motor: Sternocleidomastoid (SCM) and trapezius muscles
+│
+├─ Anatomical Course (Unique - Ascends THEN Descends)
+│   │
+│   ├─ 1. Spinal Origin
+│   │   ├─ Nucleus: C1-C5/C6 ventral horn (anterior horn cells)
+│   │   ├─ Rootlets: Exit lateral to anterior horn (between ventral and dorsal roots)
+│   │   ├─ Ascend: Within spinal canal (alongside spinal cord)
+│   │   └─ Enter skull: Through foramen magnum
+│   │
+│   ├─ 2. Intracranial (Brief)
+│   │   ├─ Course: Rostrally along lateral medulla
+│   │   ├─ Joins: Cranial root (from nucleus ambiguus) - BRIEFLY
+│   │   ├─ Combined trunk: CN IX, X, XI exit together through jugular foramen
+│   │   └─ Immediately separate: Spinal root diverges from cranial root
+│   │
+│   ├─ 3. Jugular Foramen
+│   │   ├─ Compartment: Pars vascularis (with CN X and IJV)
+│   │   ├─ Cranial root: Joins vagus (becomes part of CN X)
+│   │   └─ Spinal root: Descends independently as "CN XI"
+│   │
+│   ├─ 4. Neck (Spinal Root Course)
+│   │   ├─ Descends: Posterolaterally in neck
+│   │   ├─ Relations:
+│   │   │   ├─ Crosses: Internal jugular vein posteriorly
+│   │   │   ├─ Passes: Through or deep to SCM
+│   │   │   └─ Enters: Posterior triangle of neck
+│   │   │
+│   │   ├─ Posterior triangle:
+│   │   │   ├─ Superficial location: ~5 cm above clavicle, Erb's point
+│   │   │   ├─ Vulnerable: Lymph node biopsy, neck dissection
+│   │   │   └─ Landmark: Crosses posterior triangle diagonally
+│   │   │
+│   │   └─ Terminates: Deep surface of trapezius
+│   │
+│   └─ Motor Innervation
+│       ├─ Sternocleidomastoid (SCM):
+│       │   ├─ Innervates: Deep/medial surface of SCM
+│       │   ├─ Function: Ipsilateral lateral flexion + contralateral rotation of head
+│       │   │   └─ Example: Left SCM contracts → right head turn
+│       │   │
+│       │   └─ Additional innervation: C2-C3 (proprioception, minor contribution)
+│       │
+│       └─ Trapezius:
+│           ├─ Innervates: Deep/anterior surface of trapezius
+│           ├─ Function:
+│           │   ├─ Upper fibers: Shoulder elevation (shrug)
+│           │   ├─ Middle fibers: Scapular retraction
+│           │   └─ Lower fibers: Scapular depression
+│           │
+│           ├─ Synergy: Works with levator scapulae, rhomboids (scapular stability)
+│           └─ Additional innervation: C3-C4 (proprioception, minor contribution)
+│
+├─ Testing
+│   ├─ SCM testing:
+│   │   ├─ Palpate: SCM muscle on both sides
+│   │   ├─ Test: "Turn head to the right against my hand" (tests LEFT SCM)
+│   │   ├─ Weakness: Difficulty turning head to opposite side
+│   │   └─ Atrophy: Visible/palpable if chronic
+│   │
+│   └─ Trapezius testing:
+│       ├─ Observe: Shoulder position (droop on affected side)
+│       ├─ Palpate: Trapezius bulk
+│       ├─ Test: "Shrug shoulders against my hands" (shoulder elevation)
+│       ├─ Weakness: Cannot elevate shoulder, scapular winging (lateral border)
+│       └─ Atrophy: Visible shoulder droop, prominence of scapula
+│
+├─ Clinical Syndromes
+│   │
+│   ├─ Isolated CN XI Palsy
+│   │   ├─ SCM weakness:
+│   │   │   ├─ Difficulty: Turning head to opposite side
+│   │   │   ├─ Mild: Often unnoticed (opposite SCM compensates)
+│   │   │   └─ Bilateral: Difficulty lifting head from supine position
+│   │   │
+│   │   └─ Trapezius weakness (More Clinically Significant):
+│   │       ├─ Shoulder droop: Affected side lower
+│   │       ├─ Scapular winging: Lateral border protrudes (different from long thoracic nerve)
+│   │       ├─ Weak shoulder shrug: Cannot elevate shoulder
+│   │       ├─ Difficulty: Overhead activities (combing hair, reaching)
+│   │       ├─ Pain: Chronic shoulder/neck pain (scapular instability)
+│   │       └─ Atrophy: Visible trapezius flattening (chronic)
+│   │
+│   ├─ Iatrogenic Injury (MOST COMMON CAUSE):
+│   │   │
+│   │   ├─ Lymph node biopsy:
+│   │   │   ├─ Posterior triangle: CN XI superficial at Erb's point
+│   │   │   ├─ Risk: Biopsy of supraclavicular or posterior cervical nodes
+│   │   │   ├─ Incidence: 2-8% of cervical lymph node biopsies
+│   │   │   └─ Prevention: Careful dissection, identify CN XI before excision
+│   │   │
+│   │   ├─ Neck dissection (Radical, modified radical):
+│   │   │   ├─ Radical neck dissection: CN XI sacrificed (planned)
+│   │   │   ├─ Modified radical: CN XI preserved (goal)
+│   │   │   ├─ Selective neck dissection: CN XI preserved
+│   │   │   └─ "Shoulder syndrome": Trapezius palsy after neck dissection (10-40%)
+│   │   │
+│   │   ├─ Carotid endarterectomy:
+│   │   │   ├─ CN XI crosses ICA/IJV in upper neck
+│   │   │   ├─ Risk: Retraction injury, direct trauma
+│   │   │   └─ Incidence: <1%
+│   │   │
+│   │   └─ Internal jugular vein cannulation:
+│   │       ├─ CN XI adjacent to IJV
+│   │       └─ Risk: Direct needle injury
+│   │
+│   ├─ Non-iatrogenic causes:
+│   │   ├─ Jugular foramen syndrome: CN IX, X, XI (glomus jugulare, schwannoma)
+│   │   ├─ Trauma: Penetrating neck trauma, skull base fracture
+│   │   ├─ Tumor: Schwannoma of CN XI, metastasis to skull base
+│   │   └─ Guillain-Barré syndrome: Rare, bilateral CN XI involvement
+│   │
+│   └─ Differential Diagnosis (Trapezius Weakness):
+│       ├─ Long thoracic nerve palsy: Serratus anterior weakness → medial scapular winging
+│       ├─ Dorsal scapular nerve: Rhomboid weakness
+│       ├─ C5 radiculopathy: Multiple shoulder muscles weak (deltoid, supraspinatus)
+│       └─ Brachial plexopathy: Broader deficits
+│
+└─ Surgical Considerations
+    ├─ Prevention of injury:
+    │   ├─ Lymph node biopsy:
+    │   │   ├─ Map CN XI: Erb's point landmark (~5 cm above clavicle)
+    │   │   ├─ Dissect carefully: In posterior triangle
+    │   │   ├─ Identify nerve: Before excising nodes
+    │   │   └─ Alternative: FNA or core biopsy (avoids open surgery)
+    │   │
+    │   ├─ Neck dissection:
+    │   │   ├─ Identify CN XI: Exit from jugular foramen, crosses IJV posteriorly
+    │   │   ├─ Trace: Through posterior triangle to trapezius
+    │   │   ├─ Preserve: Unless oncologically contraindicated
+    │   │   └─ Modified radical: Spares CN XI, IJV, SCM
+    │   │
+    │   └─ Carotid endarterectomy:
+    │       ├─ Retractors: Gentle, avoid posterior neck
+    │       └─ CN XI: More at risk in high carotid exposures
+    │
+    ├─ Management of injury:
+    │   ├─ Acute (if recognized):
+    │   │   ├─ Primary repair: Microsurgical nerve repair (if transected)
+    │   │   └─ Prognosis: Variable (motor recovery often incomplete)
+    │   │
+    │   ├─ Chronic (established palsy):
+    │   │   ├─ Physical therapy: Scapular stabilization exercises
+    │   │   ├─ Pain management: NSAIDs, muscle relaxants
+    │   │   ├─ Eden-Lange procedure: Levator scapulae transfer (trapezius substitute)
+    │   │   └─ Nerve transfer: Rarely done (C5 transfer to CN XI)
+    │   │
+    │   └─ Recovery:
+    │       ├─ Neuropraxia (stretch): May recover 3-6 months
+    │       ├─ Axonotmesis: Slow recovery over 12-18 months
+    │       └─ Neurotmesis (transection): No recovery without repair
+    │
+    └─ Functional impact:
+        ├─ Unilateral trapezius: Significant disability (pain, weakness)
+        ├─ SCM: Usually minimal impact (contralateral compensates)
+        └─ Bilateral: Severe neck weakness (rare)
+```
+
+---
+
+## CN XII - HYPOGLOSSAL NERVE
+
+```
+├─ Type: Motor (Pure Motor - Tongue Muscles)
+│
+├─ Component
+│   └─ Motor: ALL intrinsic + extrinsic tongue muscles (except palatoglossus - CN X)
+│
+├─ Origin & Course
+│   │
+│   ├─ Nucleus:
+│   │   ├─ Hypoglossal nucleus: Dorsal medulla (floor of 4th ventricle)
+│   │   ├─ Location: Paramedian (hypoglossal trigone)
+│   │   ├─ Innervation: Contralateral cortex (UMN input crosses)
+│   │   └─ Organization: Somatotopic (different tongue muscles)
+│   │
+│   ├─ Exit from brainstem:
+│   │   ├─ Location: Preolivary sulcus (ventral medulla, between pyramid and olive)
+│   │   ├─ Rootlets: 10-15 rootlets coalesce
+│   │   └─ Forms: Single trunk
+│   │
+│   ├─ Hypoglossal canal:
+│   │   ├─ Location: Occipital bone (anterolateral to foramen magnum)
+│   │   ├─ Course: Obliquely anterolaterally through occipital condyle
+│   │   ├─ Length: ~10 mm
+│   │   └─ Solo nerve (no other structures)
+│   │
+│   └─ Neck and Tongue
+│       ├─ Exit: Below skull base, descends in neck
+│       ├─ Course: Curves anteriorly (C1-C2 level)
+│       ├─ Relations:
+│       │   ├─ ICA: Medial
+│       │   ├─ IJV: Lateral
+│       │   ├─ CN IX, X: Superior (at skull base)
+│       │   ├─ CN X (vagus): Crosses CN XII in carotid triangle
+│       │   └─ Lingual artery: CN XII loops inferior then superior to lingual artery
+│       │
+│       ├─ Enters tongue: At posterior lateral border (hyoglossus muscle)
+│       └─ Distributes: To all tongue muscles
+│
+├─ Branches
+│   ├─ Meningeal branch: Recurrent to posterior fossa dura (from C1-C2 fibers, not true XII)
+│   ├─ Descending branch: To infrahyoid muscles (actually C1-C2 fibers hitchhiking on XII)
+│   │   └─ Not true CN XII function (cervical nerve contribution)
+│   │
+│   └─ Muscular branches (TRUE CN XII):
+│       ├─ Intrinsic tongue muscles:
+│       │   ├─ Superior longitudinal: Curls tongue tip up
+│       │   ├─ Inferior longitudinal: Curls tongue tip down
+│       │   ├─ Transverse: Narrows and elongates tongue
+│       │   └─ Vertical: Flattens and broadens tongue
+│       │
+│       └─ Extrinsic tongue muscles:
+│           ├─ Genioglossus: Protrudes tongue (MOST IMPORTANT)
+│           │   └─ Unilateral weakness → tongue deviates TOWARD lesion side
+│           │
+│           ├─ Hyoglossus: Depresses and retracts tongue
+│           ├─ Styloglossus: Elevates and retracts tongue
+│           └─ NOT palatoglossus (CN X vagus)
+│
+├─ Function
+│   ├─ Tongue movement: All directions (protrusion, retraction, elevation, depression, lateral)
+│   ├─ Speech articulation: Precise tongue movements for consonants
+│   ├─ Mastication: Manipulate food
+│   └─ Swallowing: Bolus formation and propulsion
+│
+├─ Testing
+│   ├─ Inspection at rest:
+│   │   ├─ Observe: Tongue in mouth (atrophy, fasciculations)
+│   │   ├─ Atrophy: Visible wrinkling, reduced bulk (LMN lesion)
+│   │   ├─ Fasciculations: Visible twitching (LMN lesion - motor neuron disease)
+│   │   └─ Position: Deviated at rest (severe chronic lesion)
+│   │
+│   ├─ Protrusion:
+│   │   ├─ Command: "Stick out your tongue"
+│   │   ├─ Normal: Tongue protrudes in midline
+│   │   ├─ Deviation: Tongue deviates TOWARD side of lesion
+│   │   │   └─ Mechanism: Weak genioglossus cannot push tongue forward → unopposed contralateral pushes tongue toward weak side
+│   │   │
+│   │   └─ Bilateral weakness: Tongue cannot protrude (rare)
+│   │
+│   ├─ Lateral movement:
+│   │   ├─ Command: "Push tongue into your cheek against my finger"
+│   │   ├─ Test: Resistance to lateral movement
+│   │   └─ Weakness: Cannot push forcefully to opposite side
+│   │
+│   └─ Strength and bulk:
+│       ├─ Palpate: Tongue bulk (if cooperation permits)
+│       └─ Assess: Atrophy (chronic LMN lesion)
+│
+├─ Clinical Syndromes
+│   │
+│   ├─ Unilateral CN XII Palsy
+│   │   ├─ Tongue deviation: Protrudes toward LESION side
+│   │   ├─ Atrophy: Ipsilateral hemitongue (if chronic LMN)
+│   │   ├─ Fasciculations: If LMN lesion (motor neuron disease)
+│   │   ├─ Speech: Mild dysarthria (especially lingual sounds: L, T, D, N)
+│   │   ├─ Swallowing: Usually minimal impairment (contralateral compensation)
+│   │   └─ Mastication: Mild difficulty (food collects on weak side)
+│   │
+│   ├─ Bilateral CN XII Palsy
+│   │   ├─ Tongue: Cannot protrude (lies in floor of mouth)
+│   │   ├─ Atrophy: Global tongue atrophy (appears small, wrinkled)
+│   │   ├─ Speech: Severe dysarthria (unintelligible)
+│   │   ├─ Swallowing: Severe dysphagia (aspiration risk)
+│   │   ├─ Airway: Risk of tongue falling back (especially supine)
+│   │   └─ Causes: Motor neuron disease (ALS), brainstem stroke (bilateral), Guillain-Barré
+│   │
+│   ├─ UMN vs LMN Distinction
+│   │   │
+│   │   ├─ Upper Motor Neuron (UMN):
+│   │   │   ├─ Location: Cortex, internal capsule, brainstem (above nucleus)
+│   │   │   ├─ Tongue deviation: AWAY from lesion (toward weak side)
+│   │   │   │   └─ Example: Left cortical stroke → right tongue weakness → tongue deviates right
+│   │   │   │
+│   │   │   ├─ Appearance: NO atrophy, NO fasciculations
+│   │   │   ├─ Spasticity: Tongue may be spastic (stiff)
+│   │   │   ├─ Associated signs: Contralateral hemiparesis, dysarthria
+│   │   │   └─ Causes: Stroke (MCA), brainstem lesion
+│   │   │
+│   │   └─ Lower Motor Neuron (LMN):
+│   │       ├─ Location: Hypoglossal nucleus or nerve
+│   │       ├─ Tongue deviation: TOWARD lesion side (weak genioglossus)
+│   │       ├─ Atrophy: Ipsilateral hemitongue (chronic)
+│   │       ├─ Fasciculations: Visible twitching (motor neuron disease)
+│   │       ├─ Flaccid: Tongue limp, weak
+│   │       └─ Causes: Motor neuron disease (ALS), nerve injury, brainstem lesion (nucleus)
+│   │
+│   ├─ Causes by Location
+│   │   │
+│   │   ├─ Central (brainstem nucleus):
+│   │   │   ├─ Medullary stroke: Lateral or medial medullary syndrome
+│   │   │   ├─ Motor neuron disease: ALS (progressive bulbar palsy)
+│   │   │   ├─ Syringobulbia: Cavitation in medulla
+│   │   │   ├─ Tumor: Brainstem glioma, metastasis
+│   │   │   └─ Associated: Often other CN deficits (IX, X, XI)
+│   │   │
+│   │   ├─ Skull base (hypoglossal canal):
+│   │   │   ├─ Occipital condyle fracture: Trauma
+│   │   │   ├─ Tumor: Chordoma, chondrosarcoma, metastasis
+│   │   │   ├─ Jugular foramen syndrome: If extends to hypoglossal canal
+│   │   │   └─ Paget's disease: Narrowing of hypoglossal canal
+│   │   │
+│   │   ├─ Neck:
+│   │   │   ├─ Carotid endarterectomy: CN XII crosses ICA/IJV (1-8% injury)
+│   │   │   ├─ Carotid artery dissection: CN XII stretched/compressed
+│   │   │   ├─ Neck dissection: Radical (CN XII at risk)
+│   │   │   ├─ Penetrating trauma: Direct nerve injury
+│   │   │   └─ Lymphadenopathy: Compression by nodes
+│   │   │
+│   │   └─ Tongue base:
+│   │       ├─ Lingual artery surgery: CN XII at risk (loops around artery)
+│   │       └─ Tongue base tumor: Direct invasion
+│   │
+│   └─ Syndromes Involving CN XII
+│       │
+│       ├─ Medial medullary syndrome (Dejerine syndrome):
+│       │   ├─ Lesion: Medial medulla (anterior spinal artery territory)
+│       │   ├─ Structures: Pyramid, medial lemniscus, hypoglossal nucleus/nerve
+│       │   ├─ Triad:
+│       │   │   ├─ Ipsilateral tongue weakness (CN XII)
+│       │   │   ├─ Contralateral hemiparesis (pyramid)
+│       │   │   └─ Contralateral loss of proprioception/vibration (medial lemniscus)
+│       │   │
+│       │   └─ Tongue: Deviates toward lesion, may have atrophy/fasciculations
+│       │
+│       ├─ Tapia syndrome:
+│       │   ├─ CN X + CN XII palsy
+│       │   ├─ Causes: Prolonged intubation, skull base tumor
+│       │   └─ Features: Vocal cord paralysis + tongue paralysis
+│       │
+│       └─ Collet-Sicard syndrome:
+│           ├─ CN IX, X, XI, XII palsy (all lower CNs)
+│           ├─ Lesion: Posterior condylar space (below jugular foramen)
+│           └─ Causes: Skull base tumor, trauma
+│
+└─ Surgical Considerations
+    │
+    ├─ Carotid endarterectomy:
+    │   ├─ CN XII: Crosses ICA and IJV (in carotid triangle)
+    │   ├─ Injury rate: 1-8% (usually neuropraxia, transient)
+    │   ├─ Mechanism: Traction, retractor pressure, direct trauma
+    │   ├─ Identification: Trace CN XII above carotid bifurcation
+    │   ├─ Prevention: Careful retraction, identify nerve early
+    │   └─ Recovery: Most recover 3-6 months (if neuropraxia)
+    │
+    ├─ Neck dissection:
+    │   ├─ CN XII: At risk in upper neck (level I, level II)
+    │   ├─ Preservation: Goal in modified/selective neck dissection
+    │   └─ Injury: Tongue deviation, dysarthria, dysphagia
+    │
+    ├─ Skull base surgery:
+    │   ├─ Hypoglossal canal: CN XII vulnerable in far lateral approach
+    │   ├─ Jugular foramen: CN XII adjacent (may be injured)
+    │   └─ Monitoring: EMG of tongue (intraoperative)
+    │
+    └─ Management of injury:
+        ├─ Acute (if recognized): Primary nerve repair if transected
+        ├─ Chronic: Speech therapy, swallowing therapy
+        ├─ Unilateral: Usually compensates over time
+        └─ Bilateral: Severe disability (may need PEG tube, communication device)
+```
+
+---
+
+**END OF CRANIAL NERVES III-XII**
+
+*Note: This document provides ultra-granular surgical anatomy for CN III-XII. CN I (Olfactory) and CN II (Optic) are in separate specialized documents. CN V (Trigeminal) is in its own comprehensive 10,000-word document due to extensive complexity.*
