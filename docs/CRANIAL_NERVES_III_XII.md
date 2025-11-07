@@ -1956,3 +1956,328 @@ ernal (Pontine Cistern to Dorello's Canal)
 ```
 
 ---
+
+## CN IX - GLOSSOPHARYNGEAL NERVE
+
+```
+├─ Type: Mixed - Motor + Sensory + Parasympathetic
+│
+├─ Components
+│   ├─ Motor (Branchial motor - special visceral efferent):
+│   │   └─ Stylopharyngeus muscle (pharyngeal elevation)
+│   │
+│   ├─ Sensory (General sensory - general somatic afferent):
+│   │   ├─ Pharynx: Posterior pharyngeal wall, oropharynx, tonsillar fossa
+│   │   ├─ Middle ear: Tympanic cavity, Eustachian tube (via Jacobson's nerve)
+│   │   └─ External ear: Small area of external auditory canal
+│   │
+│   ├─ Sensory (Special sensory - taste):
+│   │   └─ Posterior 1/3 of tongue (taste)
+│   │
+│   ├─ Visceral sensory (General visceral afferent):
+│   │   ├─ Carotid body: Chemoreceptors (O2, CO2, pH)
+│   │   └─ Carotid sinus: Baroreceptors (blood pressure)
+│   │
+│   └─ Parasympathetic (General visceral efferent):
+│       └─ Parotid gland: Salivation (via otic ganglion)
+│
+├─ Origin & Nuclei
+│   ├─ Motor nucleus:
+│   │   ├─ Nucleus ambiguus (medulla)
+│   │   ├─ Location: Ventrolateral medulla
+│   │   └─ Shared with: CN X (vagus) and CN XI (accessory, cranial root)
+│   │
+│   ├─ Inferior salivatory nucleus:
+│   │   ├─ Parasympathetic preganglionic neurons
+│   │   └─ Location: Pontine tegmentum (caudal to superior salivatory nucleus)
+│   │
+│   ├─ Nucleus of solitary tract (gustatory):
+│   │   ├─ Taste information from posterior 1/3 tongue
+│   │   └─ Middle portion (between CN VII rostral and CN X caudal)
+│   │
+│   ├─ Nucleus of solitary tract (visceral sensory):
+│   │   ├─ Carotid body (chemoreceptors)
+│   │   ├─ Carotid sinus (baroreceptors)
+│   │   └─ Caudal portion of nucleus
+│   │
+│   └─ Spinal trigeminal nucleus:
+│       └─ General sensory from pharynx, middle ear, external ear
+│
+├─ Exit from Brainstem:
+│   ├─ Location: Postolivary sulcus (lateral medulla)
+│   ├─ Exits: With CN X and CN XI (in a line, rostral to caudal)
+│   └─ Rootlets: 3-4 small rootlets coalesce into single nerve
+│
+├─ Course & Branches
+│   │
+│   ├─ 1. Intracranial (Posterior Fossa)
+│   │   ├─ Course: Anterolaterally across posterior fossa
+│   │   ├─ Length: ~20 mm
+│   │   ├─ Relations:
+│   │   │   ├─ CN X: Immediately caudal (parallel course)
+│   │   │   ├─ CN XI: Caudal to CN X
+│   │   │   ├─ CN VII-VIII: More rostral and lateral
+│   │   │   ├─ PICA: Loops nearby
+│   │   │   └─ Jugular tubercle: Lateral (on clivus)
+│   │   │
+│   │   └─ Exit: Jugular foramen (pars nervosa - anteromedial compartment)
+│   │
+│   ├─ 2. Jugular Foramen
+│   │   ├─ Three compartments:
+│   │   │   ├─ Pars nervosa (anteromedial): CN IX
+│   │   │   ├─ Pars vascularis (posterolateral): CN X, CN XI, internal jugular vein
+│   │   │   └─ Inferior petrosal sinus: Separate anterior channel
+│   │   │
+│   │   ├─ Ganglia (TWO):
+│   │   │   ├─ Superior (jugular) ganglion:
+│   │   │   │   ├─ Location: Within jugular foramen
+│   │   │   │   ├─ General sensory: Pharynx, middle ear, external ear
+│   │   │   │   └─ Small ganglion
+│   │   │   │
+│   │   │   └─ Inferior (petrosal) ganglion:
+│   │   │       ├─ Location: Just below jugular foramen (petrosal fossa)
+│   │   │       ├─ Special sensory: Taste from posterior 1/3 tongue
+│   │   │       ├─ Visceral sensory: Carotid body, carotid sinus
+│   │   │       └─ Larger ganglion
+│   │   │
+│   │   └─ Clinical:
+│   │       ├─ Jugular foramen syndrome (Vernet syndrome): CN IX, X, XI palsies
+│   │       └─ Causes: Glomus jugulare tumor, schwannoma, metastasis
+│   │
+│   ├─ 3. Extracranial (Neck)
+│   │   ├─ Course: Descends between ICA and IJV
+│   │   ├─ Curves: Anteriorly around stylopharyngeus muscle
+│   │   ├─ Passes: Between superior and middle pharyngeal constrictors
+│   │   ├─ Terminates: Pharynx and posterior tongue
+│   │   │
+│   │   └─ Relations:
+│   │       ├─ ICA: Medial
+│   │       ├─ IJV: Lateral
+│   │       ├─ Styloid process: Posterior
+│   │       └─ CN X, XI, XII: Nearby in carotid sheath region
+│   │
+│   └─ Branches
+│       │
+│       ├─ Tympanic nerve (Jacobson's nerve):
+│       │   ├─ Origin: From inferior ganglion
+│       │   ├─ Course: Ascends through inferior tympanic canaliculus to middle ear
+│       │   ├─ Tympanic plexus: On promontory of middle ear (medial wall)
+│       │   │   └─ Sensory: Tympanic cavity, Eustachian tube
+│       │   │
+│       │   ├─ Becomes: Lesser petrosal nerve (parasympathetic continuation)
+│       │   └─ Lesser petrosal nerve:
+│       │       ├─ Course: Exits via foramen ovale (or nearby)
+│       │       ├─ Synapse: Otic ganglion (infratemporal fossa)
+│       │       └─ Postganglionic: To parotid gland via auriculotemporal nerve (CN V3)
+│       │
+│       ├─ Carotid sinus nerve (Hering's nerve):
+│       │   ├─ Origin: From inferior ganglion
+│       │   ├─ Course: Descends to carotid bifurcation
+│       │   ├─ Innervates:
+│       │   │   ├─ Carotid sinus: Baroreceptors (blood pressure monitoring)
+│       │   │   └─ Carotid body: Chemoreceptors (O2, CO2, pH)
+│       │   │
+│       │   └─ Function:
+│       │       ├─ Baroreceptor reflex: ↑BP → ↑firing → ↓HR, ↓BP (via vagus)
+│       │       └─ Chemoreceptor reflex: ↓O2 → ↑firing → ↑ventilation
+│       │
+│       ├─ Pharyngeal branches:
+│       │   ├─ Join: Pharyngeal plexus (with CN X and sympathetics)
+│       │   ├─ Sensory: Posterior pharyngeal wall, oropharynx, tonsillar fossa
+│       │   └─ Clinical: Afferent limb of gag reflex
+│       │
+│       ├─ Motor branch to stylopharyngeus:
+│       │   ├─ Only motor branch of CN IX
+│       │   ├─ Function: Elevates pharynx during swallowing
+│       │   └─ Not clinically testable in isolation
+│       │
+│       └─ Lingual (tonsillar) branches:
+│           ├─ Sensory: Posterior 1/3 tongue (general sensation)
+│           └─ Taste: Posterior 1/3 tongue (special sensory)
+│
+├─ Function
+│   ├─ Motor: Stylopharyngeus (pharyngeal elevation)
+│   ├─ Sensory: Pharynx, posterior tongue, middle ear
+│   ├─ Taste: Posterior 1/3 tongue
+│   ├─ Visceral sensory: Carotid sinus (BP), carotid body (O2/CO2)
+│   └─ Parasympathetic: Parotid salivation (via otic ganglion)
+│
+├─ Testing
+│   ├─ Gag reflex:
+│   │   ├─ Afferent: CN IX (pharyngeal sensation)
+│   │   ├─ Efferent: CN X (pharyngeal muscle contraction)
+│   │   ├─ Test: Touch posterior pharyngeal wall → should gag
+│   │   └─ Absent: CN IX lesion (no sensation) OR CN X lesion (no response)
+│   │
+│   ├─ Taste (posterior 1/3 tongue):
+│   │   ├─ Test: Sweet, salty, sour, bitter on posterior tongue
+│   │   └─ Loss: Rarely tested clinically (hard to isolate from CN VII)
+│   │
+│   └─ Pharyngeal sensation:
+│       ├─ Test: Touch pharyngeal wall with tongue depressor
+│       └─ Loss: Unilateral pharyngeal anesthesia
+│
+├─ Clinical Syndromes
+│   │
+│   ├─ Glossopharyngeal Neuralgia
+│   │   ├─ Definition: Severe paroxysmal pain in CN IX distribution
+│   │   ├─ Incidence: Rare (1 per 100,000 per year) - 100x less common than trigeminal neuralgia
+│   │   ├─ Age: >50 years
+│   │   │
+│   │   ├─ Presentation:
+│   │   │   ├─ Pain character:
+│   │   │   │   ├─ Severe, stabbing, electric-shock like
+│   │   │   │   ├─ Paroxysmal (sudden onset, brief)
+│   │   │   │   ├─ Duration: Seconds to 2 minutes
+│   │   │   │   └─ Intensity: 10/10, can be debilitating
+│   │   │   │
+│   │   │   ├─ Pain location:
+│   │   │   │   ├─ Posterior tongue (base)
+│   │   │   │   ├─ Tonsillar fossa, posterior pharynx
+│   │   │   │   ├─ Angle of jaw
+│   │   │   │   └─ May radiate: To ear (via tympanic branch)
+│   │   │   │
+│   │   │   ├─ Triggers:
+│   │   │   │   ├─ Swallowing (most common trigger)
+│   │   │   │   ├─ Talking, yawning, coughing
+│   │   │   │   ├─ Touching tonsillar fossa
+│   │   │   │   └─ Cold liquids
+│   │   │   │
+│   │   │   ├─ Refractory period: Pain-free interval after attack (like trigeminal neuralgia)
+│   │   │   │
+│   │   │   └─ Cardiac symptoms (10-15%):
+│   │   │       ├─ Bradycardia, syncope (vagal stimulation)
+│   │   │       ├─ Mechanism: CN IX afferents stimulate vagal efferents
+│   │   │       └─ Can be life-threatening (asystole)
+│   │   │
+│   │   ├─ Etiology:
+│   │   │   ├─ Vascular compression (90%): PICA or vertebral artery compresses CN IX at REZ
+│   │   │   ├─ Secondary causes (10%):
+│   │   │   │   ├─ CPA tumor: Schwannoma, meningioma, epidermoid
+│   │   │   │   ├─ Eagle syndrome: Elongated styloid process
+│   │   │   │   ├─ Oropharyngeal carcinoma
+│   │   │   │   └─ Multiple sclerosis
+│   │   │   │
+│   │   │   └─ Mechanism: Demyelination → ectopic firing, ephaptic transmission
+│   │   │
+│   │   ├─ Workup:
+│   │   │   ├─ MRI brain with FIESTA/CISS: Visualize vascular compression
+│   │   │   ├─ MRI with contrast: Rule out tumor, MS
+│   │   │   └─ ECG/Holter monitor: If cardiac symptoms
+│   │   │
+│   │   ├─ Treatment:
+│   │   │   ├─ Medical (First-line):
+│   │   │   │   ├─ Carbamazepine: 200-1200 mg/day (most effective)
+│   │   │   │   │   └─ Response: 70-80% initial relief
+│   │   │   │   ├─ Oxcarbazepine: 600-1800 mg/day (better tolerated)
+│   │   │   │   ├─ Gabapentin: 900-3600 mg/day
+│   │   │   │   ├─ Pregabalin: 150-600 mg/day
+│   │   │   │   └─ Baclofen: 30-80 mg/day
+│   │   │   │
+│   │   │   ├─ Local anesthesia (Diagnostic & Temporary Relief):
+│   │   │   │   ├─ Topical lidocaine: To tonsillar fossa
+│   │   │   │   └─ Confirms diagnosis (pain relief = CN IX origin)
+│   │   │   │
+│   │   │   └─ Surgical (Refractory Cases):
+│   │   │       │
+│   │   │       ├─ Microvascular Decompression (MVD) - First-line surgical:
+│   │   │       │   ├─ Indication: Medically refractory, vascular compression
+│   │   │       │   ├─ Approach: Retrosigmoid craniotomy
+│   │   │       │   ├─ Technique:
+│   │   │       │   │   ├─ Identify: CN IX at brainstem exit (rostral to CN X)
+│   │   │       │   │   ├─ Visualize: Compressing vessel (PICA, VA)
+│   │   │       │   │   ├─ Interpose: Teflon felt between vessel and nerve
+│   │   │       │   │   └─ Often: CN X also decompressed (nearby)
+│   │   │       │   │
+│   │   │       │   ├─ Success rate: 80-90% pain-free
+│   │   │       │   ├─ Complications:
+│   │   │       │   │   ├─ CSF leak: 10%
+│   │   │       │   │   ├─ Hoarseness (CN X): 10-15% (usually temporary)
+│   │   │       │   │   ├─ Dysphagia (CN IX/X): 5-10%
+│   │   │       │   │   └─ Hearing loss, cerebellar injury: <5%
+│   │   │       │   │
+│   │   │       │   └─ Recurrence: 10-20% over 10 years
+│   │   │       │
+│   │   │       └─ Rhizotomy (CN IX section):
+│   │   │           ├─ Indication: MVD failure, no vascular compression, elderly
+│   │   │           ├─ Technique: Section CN IX rootlets (partial or complete)
+│   │   │           ├─ Success: 90% pain relief
+│   │   │           ├─ Complications:
+│   │   │           │   ├─ Pharyngeal anesthesia: (aspiration risk)
+│   │   │           │   ├─ Dysphagia: Common (5-20%)
+│   │   │           │   └─ Taste loss: Posterior tongue
+│   │   │           │
+│   │   │           └─ Recovery: Dysphagia usually improves over weeks-months
+│   │   │
+│   │   └─ Prognosis:
+│   │       ├─ Medical: 70-80% respond initially, many become refractory over time
+│   │       └─ Surgical: 80-90% pain-free (MVD), 90% (rhizotomy)
+│   │
+│   ├─ Carotid Sinus Hypersensitivity / Syncope
+│   │   ├─ Definition: Exaggerated baroreceptor reflex → syncope
+│   │   ├─ Mechanism: CN IX afferents (carotid sinus) → brainstem → vagal efferents → bradycardia/hypotension
+│   │   │
+│   │   ├─ Triggers:
+│   │   │   ├─ Neck turning, tight collar
+│   │   │   ├─ Shaving over carotid sinus
+│   │   │   └─ Carotid massage (diagnostic test)
+│   │   │
+│   │   ├─ Types:
+│   │   │   ├─ Cardioinhibitory: Asystole >3 seconds (vagal)
+│   │   │   ├─ Vasodepressor: BP drop >50 mmHg (sympathetic withdrawal)
+│   │   │   └─ Mixed: Both
+│   │   │
+│   │   ├─ Treatment:
+│   │   │   ├─ Avoid triggers
+│   │   │   ├─ Pacemaker: If cardioinhibitory
+│   │   │   └─ Rarely: Surgical denervation (carotid sinus nerve section)
+│   │   │
+│   │   └─ Surgical relevance: Carotid endarterectomy can damage carotid sinus nerve
+│   │
+│   └─ Jugular Foramen Syndrome (Vernet Syndrome)
+│       ├─ Definition: CN IX, X, XI palsy (all pass through jugular foramen)
+│       │
+│       ├─ Causes:
+│       │   ├─ Glomus jugulare tumor (paraganglioma): Most common
+│       │   ├─ Schwannoma: CN IX, X, or XI origin
+│       │   ├─ Metastasis: Nasopharyngeal carcinoma, skull base metastases
+│       │   ├─ Meningioma: Jugular foramen meningioma
+│       │   └─ Trauma: Skull base fracture
+│       │
+│       ├─ Presentation:
+│       │   ├─ CN IX: Loss of pharyngeal sensation, gag reflex impaired (afferent)
+│       │   ├─ CN X: Hoarseness, dysphagia, gag reflex absent (efferent)
+│       │   ├─ CN XI: SCM and trapezius weakness (shoulder droop)
+│       │   └─ Pulsatile tinnitus: If glomus jugulare (vascular tumor)
+│       │
+│       ├─ Workup:
+│       │   ├─ MRI with contrast: Define tumor, extent
+│       │   ├─ CT temporal bone: Bony erosion (glomus jugulare)
+│       │   ├─ Angiography: If glomus jugulare (vascular supply, embolization)
+│       │   └─ Octreotide scan: For paragangliomas
+│       │
+│       └─ Treatment:
+│           ├─ Glomus jugulare: Surgery (difficult, high morbidity) or radiosurgery
+│           ├─ Schwannoma: Surgery or radiosurgery
+│           └─ Supportive: Swallowing therapy, aspiration precautions
+│
+└─ Surgical Considerations
+    ├─ Jugular foramen surgery:
+    │   ├─ Indications: Glomus jugulare, schwannoma, meningioma
+    │   ├─ Approach: Complex (transmastoid, transjugular, infratemporal fossa)
+    │   ├─ CN IX preservation: Difficult (often sacrificed if tumor adherent)
+    │   └─ Complications: CN IX, X, XI deficits common (20-40%)
+    │
+    ├─ MVD for glossopharyngeal neuralgia:
+    │   ├─ Approach: Retrosigmoid craniotomy
+    │   ├─ Identification: CN IX rostral to CN X, both exit postolivary sulcus
+    │   ├─ Decompression: Teflon between PICA/VA and CN IX
+    │   └─ Often: CN X also decompressed (nearby compression common)
+    │
+    └─ Carotid endarterectomy:
+        ├─ Risk: Carotid sinus nerve injury (Hering's nerve)
+        ├─ Result: Loss of baroreceptor reflex → postop hypertension
+        └─ Management: Usually transient, BP control with medications
+```
+
+---
