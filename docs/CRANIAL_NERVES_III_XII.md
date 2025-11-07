@@ -756,6 +756,652 @@ ernal (Pontine Cistern to Dorello's Canal)
 │               ├─ Course: Inferiorly into neck
 │               ├─ Motor: Platysma (neck skin movement)
 │               └─ Clinical: Least clinically important branch
+│
+├─ Testing Methods (Comprehensive Assessment)
+│   │
+│   ├─ Motor Function Testing:
+│   │   ├─ Forehead:
+│   │   │   ├─ "Raise your eyebrows" → Frontalis function
+│   │   │   ├─ "Wrinkle your forehead" → Frontalis contraction
+│   │   │   └─ Asymmetry indicates LMN lesion (UMN spares forehead!)
+│   │   │
+│   │   ├─ Eye closure:
+│   │   │   ├─ "Close your eyes tightly" → Orbicularis oculi
+│   │   │   ├─ Attempt to open against resistance
+│   │   │   ├─ Incomplete closure: Bell's phenomenon (eye rolls up)
+│   │   │   └─ Lagophthalmos: Inability to close = corneal exposure risk!
+│   │   │
+│   │   ├─ Smile:
+│   │   │   ├─ "Show me your teeth" → Zygomaticus, levator anguli oris
+│   │   │   ├─ Asymmetry: Affected side droops, nasolabial fold flattened
+│   │   │   └─ Corner of mouth: Affected side cannot elevate
+│   │   │
+│   │   ├─ Puff cheeks:
+│   │   │   ├─ "Puff out your cheeks" → Buccinator, orbicularis oris
+│   │   │   ├─ Air leaks: Lip weakness, cannot seal
+│   │   │   └─ Test: Press on cheeks, assess seal integrity
+│   │   │
+│   │   ├─ Lower face:
+│   │   │   ├─ "Show me your bottom teeth" → Depressor labii inferioris
+│   │   │   ├─ "Pout your lip" → Mentalis
+│   │   │   └─ Asymmetric lower lip: Marginal mandibular branch injury
+│   │   │
+│   │   └─ Platysma:
+│   │       ├─ "Grimace and tense your neck" → Platysma contraction
+│   │       └─ Rarely tested clinically
+│   │
+│   ├─ UMN vs LMN Distinction (CRITICAL!)
+│   │   │
+│   │   ├─ Upper Motor Neuron (UMN) Lesion:
+│   │   │   ├─ Location: Cortex, internal capsule, brainstem (above CN VII nucleus)
+│   │   │   ├─ Forehead: SPARED (bilateral cortical input to upper face)
+│   │   │   ├─ Lower face: WEAK (contralateral cortical input only)
+│   │   │   │
+│   │   │   ├─ Presentation:
+│   │   │   │   ├─ Can raise eyebrows (forehead spared)
+│   │   │   │   ├─ Can wrinkle forehead (frontalis works)
+│   │   │   │   ├─ Can close eyes (orbicularis oculi works)
+│   │   │   │   ├─ Cannot smile (lower face weak)
+│   │   │   │   └─ Flattened nasolabial fold
+│   │   │   │
+│   │   │   ├─ Causes:
+│   │   │   │   ├─ Stroke (most common): Middle cerebral artery territory
+│   │   │   │   ├─ Brainstem lesion (if below decussation)
+│   │   │   │   ├─ Tumor: Frontal or parietal lobe
+│   │   │   │   └─ Demyelination: MS, other
+│   │   │   │
+│   │   │   └─ Associated signs:
+│   │   │       ├─ Contralateral hemiparesis (arm/leg weakness)
+│   │   │       ├─ Dysarthria (if cortical/subcortical)
+│   │   │       └─ Other cortical signs (aphasia, neglect)
+│   │   │
+│   │   └─ Lower Motor Neuron (LMN) Lesion:
+│   │       ├─ Location: CN VII nucleus, nerve (anywhere along course)
+│   │       ├─ Forehead: WEAK (no bilateral compensation)
+│   │       ├─ Lower face: WEAK
+│   │       │
+│   │       ├─ Presentation:
+│   │       │   ├─ Cannot raise eyebrows (frontalis paralyzed)
+│   │       │   ├─ Cannot wrinkle forehead
+│   │       │   ├─ Cannot close eye (orbicularis oculi paralyzed)
+│   │       │   ├─ Bell's phenomenon: Eye rolls up on attempted closure
+│   │       │   ├─ Cannot smile (entire face affected)
+│   │       │   └─ Drooling (orbicularis oris weak)
+│   │       │
+│   │       ├─ Causes: Bell's palsy, Ramsay Hunt, tumor, trauma, stroke (pontine)
+│   │       │
+│   │       └─ Localization by branch involvement:
+│   │           ├─ Proximal to greater petrosal: Dry eye + facial weakness
+│   │           ├─ Distal to greater petrosal, proximal to stapedius: Hyperacusis + facial weakness
+│   │           ├─ Distal to stapedius, proximal to chorda tympani: Taste loss + facial weakness
+│   │           └─ Distal to chorda tympani: Isolated facial weakness only
+│   │
+│   ├─ Taste Testing:
+│   │   ├─ Anterior 2/3 tongue: CN VII (via chorda tympani)
+│   │   ├─ Test: Sweet, salty, sour, bitter on anterior tongue
+│   │   ├─ Loss: Lesion proximal to chorda tympani branch
+│   │   └─ Metallic taste: Chorda tympani irritation/regeneration
+│   │
+│   ├─ Lacrimation (Schirmer Test):
+│   │   ├─ Test: Filter paper in lower eyelid, measure tear production
+│   │   ├─ Normal: >10 mm wetting in 5 minutes
+│   │   ├─ Decreased: Lesion proximal to greater petrosal nerve
+│   │   └─ Paradoxical lacrimation: "Crocodile tears" during eating (aberrant regeneration)
+│   │
+│   ├─ Stapedius Reflex:
+│   │   ├─ Test: Acoustic reflex testing (loud sound → stapedius contracts)
+│   │   ├─ Absent: Lesion proximal to nerve to stapedius
+│   │   └─ Hyperacusis: Stapedius paralysis → sounds abnormally loud
+│   │
+│   └─ Blink Reflex (Corneal Reflex):
+│       ├─ Afferent: CN V (trigeminal - corneal sensation)
+│       ├─ Efferent: CN VII (facial - eye closure)
+│       ├─ Test: Touch cornea → both eyes blink
+│       └─ Abnormal: CN VII lesion → ipsilateral eye doesn't blink
+│
+├─ Clinical Syndromes (Major)
+│   │
+│   ├─ Bell's Palsy (Idiopathic Facial Paralysis)
+│   │   │
+│   │   ├─ Definition: Acute onset unilateral LMN facial paralysis (no identifiable cause)
+│   │   ├─ Incidence: 20-30 per 100,000 per year
+│   │   ├─ Age: All ages, peak 15-45 years
+│   │   ├─ Risk factors: Pregnancy (3x risk, especially 3rd trimester), diabetes
+│   │   │
+│   │   ├─ Etiology (Current Understanding):
+│   │   │   ├─ Viral hypothesis (most accepted):
+│   │   │   │   ├─ HSV-1 (Herpes simplex): Most common (~70%)
+│   │   │   │   ├─ VZV (Varicella zoster): If Ramsay Hunt (see below)
+│   │   │   │   ├─ EBV, CMV, adenovirus (less common)
+│   │   │   │   └─ Mechanism: Viral reactivation → inflammation → edema
+│   │   │   │
+│   │   │   ├─ Pathophysiology:
+│   │   │   │   ├─ Viral inflammation → nerve swelling
+│   │   │   │   ├─ Labyrinthine segment: Narrowest (0.61 mm) → compression
+│   │   │   │   ├─ "Bottleneck effect": Swelling → ischemia → demyelination
+│   │   │   │   ├─ Ischemia → conduction block → paralysis
+│   │   │   │   └─ Severe: Axonal degeneration (poor prognosis)
+│   │   │   │
+│   │   │   └─ Vascular hypothesis (alternative):
+│   │   │       └─ Microvascular ischemia → nerve dysfunction
+│   │   │
+│   │   ├─ Presentation:
+│   │   │   ├─ Onset: Acute (hours to days), often overnight
+│   │   │   ├─ Prodrome (50%): Retroauricular pain 1-2 days before weakness
+│   │   │   │
+│   │   │   ├─ Motor:
+│   │   │   │   ├─ Complete unilateral facial paralysis (forehead + lower face)
+│   │   │   │   ├─ Cannot raise eyebrow, cannot close eye, cannot smile
+│   │   │   │   ├─ Bell's phenomenon: Eye rolls up on attempted closure
+│   │   │   │   └─ Drooling, food collects in cheek
+│   │   │   │
+│   │   │   ├─ Sensory:
+│   │   │   │   ├─ Taste loss: Anterior 2/3 tongue (if chorda tympani involved)
+│   │   │   │   ├─ Hyperacusis: Sounds loud (stapedius paralysis)
+│   │   │   │   └─ Decreased lacrimation: Dry eye (if greater petrosal involved)
+│   │   │   │
+│   │   │   ├─ Eye complications (URGENT!):
+│   │   │   │   ├─ Lagophthalmos: Cannot close eye → corneal exposure
+│   │   │   │   ├─ Dry eye: Decreased blinking, decreased tear production
+│   │   │   │   ├─ Corneal abrasion/ulceration: Can lead to blindness
+│   │   │   │   └─ Requires: Aggressive eye protection (artificial tears, taping, moisture chamber)
+│   │   │   │
+│   │   │   └─ Diagnosis of exclusion: Must rule out other causes!
+│   │   │       ├─ Stroke (UMN): Forehead spared
+│   │   │       ├─ Ramsay Hunt syndrome: Vesicles in ear
+│   │   │       ├─ Lyme disease: History of tick exposure, erythema migrans
+│   │   │       ├─ Tumor: Gradual onset, other CN involvement
+│   │   │       └─ Trauma: History of injury
+│   │   │
+│   │   ├─ Workup:
+│   │   │   ├─ Clinical diagnosis: History + exam sufficient
+│   │   │   ├─ MRI: NOT routine, only if atypical (gradual onset, no recovery, other CNs)
+│   │   │   ├─ Lyme serology: If endemic area, summer, tick exposure
+│   │   │   ├─ Diabetes screening: Check glucose
+│   │   │   └─ EMG/NCS: If considering surgical decompression (rarely done)
+│   │   │
+│   │   ├─ Treatment (Acute Phase - First 72 Hours):
+│   │   │   ├─ Corticosteroids (Grade A Evidence):
+│   │   │   │   ├─ Prednisolone: 60-80 mg/day x 7 days, then taper
+│   │   │   │   ├─ Start: Within 72 hours (earlier better)
+│   │   │   │   ├─ Mechanism: Reduce inflammation, edema, compression
+│   │   │   │   ├─ Benefit: Increases recovery rate from ~70% to ~94%
+│   │   │   │   └─ Contraindications: Immunosuppression, uncontrolled DM
+│   │   │   │
+│   │   │   ├─ Antivirals (Controversial):
+│   │   │   │   ├─ Acyclovir 400 mg 5x/day OR Valacyclovir 1000 mg 3x/day x 7 days
+│   │   │   │   ├─ Evidence: Mixed (some benefit if combined with steroids)
+│   │   │   │   ├─ Cochrane review: Minimal benefit
+│   │   │   │   └─ Current: Often added to steroids (low harm)
+│   │   │   │
+│   │   │   └─ Eye Protection (CRITICAL!):
+│   │   │       ├─ Artificial tears: Every 1-2 hours while awake
+│   │   │       ├─ Lubricating ointment: At night
+│   │   │       ├─ Tape eye shut: At night (if cannot close)
+│   │   │       ├─ Moisture chamber: Protective glasses/goggles
+│   │   │       └─ Ophthalmology referral: If corneal exposure severe
+│   │   │
+│   │   ├─ Prognosis:
+│   │   │   ├─ Complete recovery: 70-80% (within 3-6 months)
+│   │   │   ├─ Partial recovery: 15-20%
+│   │   │   ├─ No recovery: 5% (poor prognostic signs below)
+│   │   │   │
+│   │   │   ├─ Good prognosis:
+│   │   │   │   ├─ Incomplete paralysis at onset
+│   │   │   │   ├─ Early recovery (within 3 weeks)
+│   │   │   │   ├─ Young age
+│   │   │   │   └─ No hyperacusis (nerve to stapedius spared)
+│   │   │   │
+│   │   │   └─ Poor prognosis:
+│   │   │       ├─ Complete paralysis at onset
+│   │   │       ├─ No recovery by 3-4 months
+│   │   │       ├─ Elderly
+│   │   │       ├─ Diabetes
+│   │   │       └─ Severe pain, hyperacusis (proximal nerve involvement)
+│   │   │
+│   │   ├─ Sequelae (Chronic):
+│   │   │   ├─ Synkinesis (aberrant regeneration):
+│   │   │   │   ├─ Mechanism: Axons regenerate to wrong muscles
+│   │   │   │   ├─ Example: Eye closure → corner of mouth elevates
+│   │   │   │   ├─ Example: Smiling → eye closure
+│   │   │   │   └─ Treatment: Botulinum toxin (BoNT) to affected muscles
+│   │   │   │
+│   │   │   ├─ Crocodile tears (gustatolacrimal reflex):
+│   │   │   │   ├─ Mechanism: Salivatory fibers regenerate to lacrimal gland
+│   │   │   │   ├─ Presentation: Tearing when eating
+│   │   │   │   └─ Treatment: BoNT to lacrimal gland
+│   │   │   │
+│   │   │   ├─ Contracture:
+│   │   │   │   ├─ Facial muscles tonically contracted
+│   │   │   │   ├─ Appearance: Tighter on affected side
+│   │   │   │   └─ Treatment: BoNT, physical therapy
+│   │   │   │
+│   │   │   └─ Residual weakness:
+│   │   │       ├─ Subtle asymmetry with movement
+│   │   │       └─ May benefit from facial reanimation (if severe)
+│   │   │
+│   │   └─ Surgical Decompression (RARE, Controversial):
+│   │       ├─ Indication: Complete paralysis + no recovery + EMG shows severe degeneration
+│   │       ├─ Timing: Within 2 weeks of onset
+│   │       ├─ Technique: Transmastoid decompression of labyrinthine segment
+│   │       ├─ Evidence: Limited, not standard of care
+│   │       └─ Current use: Rare, only specialized centers
+│   │
+│   ├─ Ramsay Hunt Syndrome (Herpes Zoster Oticus)
+│   │   ├─ Definition: VZV (varicella zoster) reactivation in geniculate ganglion
+│   │   ├─ Incidence: 5 per 100,000 per year
+│   │   │
+│   │   ├─ Presentation:
+│   │   │   ├─ Facial paralysis: LMN, same as Bell's
+│   │   │   ├─ Vesicles: Painful vesicular rash in ear canal, concha, soft palate
+│   │   │   ├─ Severe otalgia: Ear pain (often precedes rash)
+│   │   │   ├─ Hearing loss: Sensorineural (CN VIII involvement)
+│   │   │   ├─ Vertigo: Vestibular involvement (CN VIII)
+│   │   │   └─ Taste loss, hyperacusis (same as Bell's)
+│   │   │
+│   │   ├─ Diagnosis:
+│   │   │   ├─ Clinical: Vesicles + facial paralysis = Ramsay Hunt
+│   │   │   ├─ Zoster sine herpete: Facial paralysis without vesicles (10-20%)
+│   │   │   └─ VZV serology: If no vesicles, can check VZV IgM/IgG
+│   │   │
+│   │   ├─ Treatment:
+│   │   │   ├─ Corticosteroids: Same as Bell's palsy (prednisone 60-80 mg/day)
+│   │   │   ├─ Antivirals (ESSENTIAL!): Acyclovir 800 mg 5x/day OR Valacyclovir 1000 mg 3x/day x 7-10 days
+│   │   │   ├─ Eye protection: Same as Bell's palsy
+│   │   │   └─ Pain management: Gabapentin, pregabalin for neuropathic pain
+│   │   │
+│   │   └─ Prognosis:
+│   │       ├─ Worse than Bell's palsy: Complete recovery only 50-60%
+│   │       ├─ Residual weakness: Common (30-40%)
+│   │       └─ Postherpetic neuralgia: Chronic pain (10-20%)
+│   │
+│   ├─ Hemifacial Spasm
+│   │   ├─ Definition: Involuntary, intermittent twitching/contractions of facial muscles
+│   │   ├─ Laterality: UNILATERAL (almost always)
+│   │   ├─ Age: Middle-aged to elderly, women > men
+│   │   │
+│   │   ├─ Etiology:
+│   │   │   ├─ Primary (90%):
+│   │   │   │   ├─ Vascular compression: AICA or PICA loop compresses CN VII at REZ (root exit zone)
+│   │   │   │   ├─ Mechanism: Pulsatile compression → demyelination → ephaptic transmission
+│   │   │   │   ├─ Ephaptic transmission: Impulses "jump" between demyelinated axons
+│   │   │   │   └─ Result: Synchronous firing of multiple facial muscles
+│   │   │   │
+│   │   │   └─ Secondary (10%):
+│   │   │       ├─ CPA tumor: Acoustic neuroma, meningioma, epidermoid
+│   │   │       ├─ Multiple sclerosis: Demyelinating plaque
+│   │   │       ├─ Post-Bell's palsy: Aberrant regeneration
+│   │   │       └─ Brainstem lesion: Glioma, vascular malformation
+│   │   │
+│   │   ├─ Presentation:
+│   │   │   ├─ Onset: Gradual, progressive over years
+│   │   │   ├─ Twitching pattern (typical progression):
+│   │   │   │   ├─ Starts: Orbicularis oculi (eye twitching)
+│   │   │   │   ├─ Spreads: Downward to lower face (mouth, chin)
+│   │   │   │   └─ Severity: Mild twitching → sustained contractions
+│   │   │   │
+│   │   │   ├─ Triggers: Stress, fatigue, voluntary facial movement
+│   │   │   ├─ Persists: During sleep (unlike psychogenic)
+│   │   │   └─ No pain: Painless (unlike trigeminal neuralgia)
+│   │   │
+│   │   ├─ Workup:
+│   │   │   ├─ MRI brain: Rule out secondary causes (tumor, MS, vascular lesion)
+│   │   │   ├─ MRI with FIESTA/CISS: High-resolution to visualize vascular compression
+│   │   │   └─ EMG: Lateral spread response (abnormal muscle recruitment)
+│   │   │
+│   │   ├─ Treatment:
+│   │   │   ├─ Botulinum Toxin (BoNT) - First Line:
+│   │   │   │   ├─ Injection: Into affected muscles (orbicularis oculi, others)
+│   │   │   │   ├─ Mechanism: Blocks acetylcholine release → muscle relaxation
+│   │   │   │   ├─ Duration: 3-6 months (repeat injections needed)
+│   │   │   │   ├─ Efficacy: 85-95% improvement
+│   │   │   │   └─ Side effects: Ptosis, facial weakness (temporary)
+│   │   │   │
+│   │   │   ├─ Medications (Limited Efficacy):
+│   │   │   │   ├─ Carbamazepine: Modest benefit (20-30%)
+│   │   │   │   ├─ Baclofen: Muscle relaxant, limited benefit
+│   │   │   │   └─ Not curative: Symptoms return when stopped
+│   │   │   │
+│   │   │   └─ Microvascular Decompression (MVD) - Definitive:
+│   │   │       ├─ Indication: Medically refractory, desire for cure
+│   │   │       ├─ Approach: Retrosigmoid craniotomy (lateral suboccipital)
+│   │   │       ├─ Technique:
+│   │   │       │   ├─ Position: Lateral or semi-sitting
+│   │   │       │   ├─ Craniotomy: Retrosigmoid, open CPA cistern
+│   │   │       │   ├─ Identify: CN VII at brainstem exit (REZ)
+│   │   │       │   ├─ Visualize: Compressing vessel (AICA, PICA, vertebral artery)
+│   │   │       │   ├─ Interpose: Teflon felt pledgets between vessel and nerve
+│   │   │       │   └─ Secure: Teflon in place (no contact between vessel and nerve)
+│   │   │       │
+│   │   │       ├─ Intraoperative monitoring:
+│   │   │       │   ├─ Facial EMG: Detect nerve irritation
+│   │   │       │   ├─ Brainstem auditory evoked potentials (BAEP): Monitor CN VIII
+│   │   │       │   └─ Lateral spread response: Should disappear if decompression successful
+│   │   │       │
+│   │   │       ├─ Success rate:
+│   │   │       │   ├─ Complete cure: 85-90%
+│   │   │       │   ├─ Significant improvement: 95%
+│   │   │       │   └─ Recurrence: 5-10% (often amenable to BoNT)
+│   │   │       │
+│   │   │       ├─ Complications:
+│   │   │       │   ├─ Hearing loss: 3-10% (CN VIII injury)
+│   │   │       │   ├─ Facial weakness: 5-10% (usually temporary)
+│   │   │       │   ├─ CSF leak: 5%
+│   │   │       │   ├─ Meningitis: 1-2%
+│   │   │       │   └─ Cerebellar injury: Rare (<1%)
+│   │   │       │
+│   │   │       └─ Recovery:
+│   │   │           ├─ Immediate: Some patients (spasms stop in OR)
+│   │   │           ├─ Gradual: Most patients (3-6 months)
+│   │   │           └─ Delayed: Rare (up to 1 year for full improvement)
+│   │   │
+│   │   └─ Differential Diagnosis:
+│   │       ├─ Blepharospasm: BILATERAL eyelid spasms (vs unilateral hemifacial spasm)
+│   │       ├─ Myokymia: Benign eyelid twitching (orbicularis oculi only, doesn't spread)
+│   │       ├─ Tic disorder: Voluntary suppression possible (hemifacial spasm involuntary)
+│   │       └─ Psychogenic: Atypical pattern, doesn't persist in sleep
+│   │
+│   └─ Facial Nerve Grading (House-Brackmann Scale)
+│       ├─ Purpose: Standardized assessment of facial nerve function
+│       ├─ Used: Pre/postop documentation, prognostication, research
+│       │
+│       ├─ Grade I - Normal:
+│       │   ├─ Facial symmetry and tone normal
+│       │   └─ All areas of face move normally
+│       │
+│       ├─ Grade II - Mild Dysfunction:
+│       │   ├─ Slight weakness on close inspection
+│       │   ├─ Synkinesis barely noticeable
+│       │   └─ At rest: Normal symmetry and tone
+│       │
+│       ├─ Grade III - Moderate Dysfunction:
+│       │   ├─ Obvious difference between two sides, but not disfiguring
+│       │   ├─ Complete eye closure with effort
+│       │   ├─ Forehead: Slight to moderate movement
+│       │   ├─ Mouth: Slight asymmetry with movement
+│       │   └─ At rest: Normal symmetry and tone
+│       │
+│       ├─ Grade IV - Moderately Severe Dysfunction:
+│       │   ├─ Obvious weakness and/or disfiguring asymmetry
+│       │   ├─ Incomplete eye closure
+│       │   ├─ Forehead: None to slight movement
+│       │   ├─ Mouth: Asymmetric with maximum effort
+│       │   └─ At rest: Normal symmetry and tone
+│       │
+│       ├─ Grade V - Severe Dysfunction:
+│       │   ├─ Barely perceptible motion
+│       │   ├─ Incomplete eye closure
+│       │   ├─ Forehead: No movement
+│       │   ├─ Mouth: Slight movement
+│       │   └─ At rest: Asymmetric
+│       │
+│       └─ Grade VI - Total Paralysis:
+│           ├─ No movement
+│           ├─ Loss of tone
+│           └─ No synkinesis, contracture, or spasm
+│
+└─ Surgical Considerations (Major Operations)
+    │
+    ├─ Parotidectomy (Parotid Gland Surgery)
+    │   │
+    │   ├─ Indications: Parotid tumor (benign or malignant), chronic parotitis, sialolithiasis
+    │   │
+    │   ├─ Anatomy (Key Points):
+    │   │   ├─ CN VII enters: Posterior surface of parotid (after stylomastoid foramen)
+    │   │   ├─ Divides: Within parotid into terminal branches
+    │   │   ├─ Plane: Nerve is superficial to retromandibular vein and external carotid artery
+    │   │   └─ Superficial vs deep lobe: Nerve defines plane (superficial lobe = lateral to nerve)
+    │   │
+    │   ├─ Approaches:
+    │   │   ├─ Modified Blair incision: Preauricular → posterior auricular → neck
+    │   │   ├─ Facelift incision: Cosmetically superior (hidden in hairline)
+    │   │   └─ Partial vs total parotidectomy: Depends on tumor location
+    │   │
+    │   ├─ Technique (Nerve Identification & Preservation):
+    │   │   ├─ Landmarks for CN VII trunk:
+    │   │   │   ├─ Tragal pointer: Cartilaginous pointer at root of helix → nerve 1 cm deep and inferior
+    │   │   │   ├─ Tympanomastoid suture: Nerve exits 6-8 mm deep and anterior to suture
+    │   │   │   ├─ Posterior belly of digastric: Follow superiorly → nerve exits just above
+    │   │   │   └─ Styloid process: Nerve lateral to styloid (retract styloid medially)
+    │   │   │
+    │   │   ├─ Nerve dissection:
+    │   │   │   ├─ Identify: Main trunk at stylomastoid foramen
+    │   │   │   ├─ Trace: Anteriorly into parotid (divides into terminal branches)
+    │   │   │   ├─ Dissect: Parotid tissue off nerve (blunt dissection, careful hemostasis)
+    │   │   │   └─ Preserve: All branches if benign tumor
+    │   │   │
+    │   │   ├─ Intraoperative nerve monitoring (IONM):
+    │   │   │   ├─ Facial EMG electrodes: Frontalis, orbicularis oculi, orbicularis oris, mentalis
+    │   │   │   ├─ Nerve stimulator: 0.5-1.0 mA threshold
+    │   │   │   ├─ Alerts: If nerve stimulated (helps identify branches)
+    │   │   │   └─ Efficacy: Does NOT prevent injury, but aids identification
+    │   │   │
+    │   │   └─ Tumor removal:
+    │   │       ├─ Benign (pleomorphic adenoma): Preserve all branches
+    │   │       ├─ Malignant: Sacrifice nerve if involved (plan reconstruction)
+    │   │       └─ Margin: Adequate clearance (malignant) vs nerve preservation (benign)
+    │   │
+    │   ├─ Key Branches at Risk:
+    │   │   ├─ Temporal branch: Crosses zygomatic arch (superficial) → injury = forehead paralysis
+    │   │   ├─ Marginal mandibular: Runs below mandible → injury = asymmetric smile
+    │   │   └─ Identification: Use IONM to confirm branch identity before dissection
+    │   │
+    │   ├─ Complications:
+    │   │   ├─ Temporary facial weakness: 20-40% (neuropraxia, resolves weeks-months)
+    │   │   ├─ Permanent facial paralysis: 1-5% (benign tumors), 20-40% (malignant if nerve sacrificed)
+    │   │   ├─ Frey syndrome (gustatory sweating): 30-50%
+    │   │   │   ├─ Mechanism: Parasympathetic fibers regenerate to sweat glands
+    │   │   │   ├─ Presentation: Sweating/flushing over parotid area when eating
+    │   │   │   └─ Treatment: BoNT injections, topical antiperspirant
+    │   │   │
+    │   │   ├─ Greater auricular nerve: Sensory loss to earlobe (often unavoidable)
+    │   │   ├─ Sialocele: Saliva collection (drain, pressure dressing)
+    │   │   └─ Hematoma: Drain if significant (risk airway compromise)
+    │   │
+    │   └─ Postoperative Care:
+    │       ├─ Monitor: Facial function immediately postop (document House-Brackmann grade)
+    │       ├─ Eye protection: If lagophthalmos (artificial tears, taping at night)
+    │       ├─ Drain: Usually placed, remove when output <30 mL/day
+    │       └─ Follow-up: Regular assessment of facial function, tumor recurrence
+    │
+    ├─ Acoustic Neuroma (Vestibular Schwannoma) Surgery
+    │   │
+    │   ├─ Tumor: Benign schwannoma arising from CN VIII (superior or inferior vestibular nerve)
+    │   ├─ Location: CPA and/or IAC
+    │   │
+    │   ├─ Surgical Approaches:
+    │   │   ├─ Translabyrinthine:
+    │   │   │   ├─ Indication: Large tumor, no useful hearing
+    │   │   │   ├─ Advantage: Direct access to IAC, early identification of CN VII
+    │   │   │   ├─ Disadvantage: Sacrifices hearing
+    │   │   │   └─ CN VII: Identified early at IAC fundus, preserved throughout
+    │   │   │
+    │   │   ├─ Retrosigmoid (Lateral Suboccipital):
+    │   │   │   ├─ Indication: Any size tumor, attempt hearing preservation
+    │   │   │   ├─ Advantage: Hearing preservation possible (small tumors)
+    │   │   │   ├─ Disadvantage: Cerebellar retraction, CN VII identified late
+    │   │   │   └─ CN VII: Usually on anterior surface of tumor (identify after debulking)
+    │   │   │
+    │   │   └─ Middle Fossa:
+    │   │       ├─ Indication: Small intracanalicular tumor (<1.5 cm), good hearing
+    │   │       ├─ Advantage: Excellent hearing preservation, direct access to IAC
+    │   │       ├─ Disadvantage: Temporal lobe retraction, limited CPA exposure
+    │   │       └─ CN VII: Identified at IAC, dissected anteriorly
+    │   │
+    │   ├─ Technique (CN VII Preservation):
+    │   │   ├─ Nerve location: Usually anterior or anterosuperior surface of tumor
+    │   │   ├─ Identification:
+    │   │   │   ├─ Early (translabyrinthine): At IAC fundus (Bill's bar separates VII from VIII)
+    │   │   │   ├─ Late (retrosigmoid): After tumor debulking, identify on anterior capsule
+    │   │   │   └─ Dissection plane: Between tumor and nerve (arachnoid plane)
+    │   │   │
+    │   │   ├─ Tumor removal:
+    │   │   │   ├─ Debulk: Internal decompression (ultrasonic aspirator, suction)
+    │   │   │   ├─ Capsule: Dissect off CN VII (sharp dissection, preserve arachnoid)
+    │   │   │   ├─ Gentle: Minimize manipulation (nerve very sensitive to traction)
+    │   │   │   └─ Goal: Gross total resection if safe, subtotal if nerve at risk
+    │   │   │
+    │   │   ├─ Intraoperative monitoring (CRITICAL!):
+    │   │   │   ├─ Facial EMG: Continuous monitoring, nerve stimulator
+    │   │   │   ├─ Evoked potentials: Direct nerve stimulation (confirm integrity)
+    │   │   │   ├─ Train-of-four: Repetitive stimulation (assess nerve fatigue)
+    │   │   │   └─ Alarm criteria: Loss of response = high risk injury
+    │   │   │
+    │   │   └─ Decision-making:
+    │   │       ├─ If nerve anatomically intact: Good chance of facial function recovery
+    │   │       ├─ If nerve thinned but intact: May have delayed recovery (months)
+    │   │       └─ If subtotal resection: Residual tumor preferred over nerve sacrifice (benign tumor)
+    │   │
+    │   ├─ Facial Nerve Outcomes:
+    │   │   ├─ Anatomic preservation: >95% (modern series)
+    │   │   ├─ Good facial function (HB I-II):
+    │   │   │   ├─ Small tumors (<1.5 cm): 90-95%
+    │   │   │   ├─ Medium tumors (1.5-3 cm): 70-80%
+    │   │   │   └─ Large tumors (>3 cm): 50-60%
+    │   │   │
+    │   │   ├─ Immediate postop: Often HB III-IV (neuropraxia)
+    │   │   ├─ Recovery: Gradual over 6-12 months (nerve stretched but not cut)
+    │   │   └─ If HB V-VI at 1 year: Consider facial reanimation
+    │   │
+    │   ├─ Complications:
+    │   │   ├─ Facial weakness: See above
+    │   │   ├─ Hearing loss: Depends on approach and tumor size
+    │   │   ├─ CSF leak: 5-10% (manage with lumbar drain, rarely needs repair)
+    │   │   ├─ Meningitis: 1-2%
+    │   │   └─ Cerebellar injury: Rare (<1%)
+    │   │
+    │   └─ Alternative: Stereotactic Radiosurgery (Gamma Knife, CyberKnife)
+    │       ├─ Indication: Small-medium tumors, elderly, medical comorbidities, patient preference
+    │       ├─ Facial nerve preservation: 95-98% (better than surgery for some tumors)
+    │       ├─ Hearing preservation: 50-70% (small tumors with good hearing)
+    │       └─ Limitations: Does not remove tumor (tumor control, not cure), delayed effect
+    │
+    └─ Facial Reanimation Procedures
+        │
+        ├─ Indication: Permanent complete facial paralysis (HB V-VI at 1+ year)
+        │
+        ├─ Timing Considerations:
+        │   ├─ Acute (<72 hours): Primary neurorrhaphy if nerve transected
+        │   ├─ Subacute (3 days - 2 years): Nerve grafting, nerve transfer
+        │   ├─ Chronic (>2 years): Muscle denervated → only muscle transfer/free flap
+        │   └─ Key: Muscle atrophy occurs ~2 years after denervation (window for reinnervation)
+        │
+        ├─ Procedures (Spectrum of Options):
+        │   │
+        │   ├─ 1. Primary Neurorrhaphy (Direct Repair):
+        │   │   ├─ Indication: Immediate recognition of nerve transection (iatrogenic, trauma)
+        │   │   ├─ Timing: Best if within 72 hours (up to 7 days acceptable)
+        │   │   ├─ Technique:
+        │   │   │   ├─ Identify: Both nerve ends
+        │   │   │   ├─ Debride: Back to healthy fascicles (remove damaged tissue)
+        │   │   │   ├─ Approximate: Tension-free alignment (9-0 or 10-0 nylon sutures)
+        │   │   │   └─ Epineural: Suture epineurium (NOT individual fascicles - too small)
+        │   │   │
+        │   │   └─ Prognosis: Best outcome if primary repair (HB II-III in 70-80%)
+        │   │
+        │   ├─ 2. Interpositional Nerve Graft (Cable Graft):
+        │   │   ├─ Indication: Gap too large for primary repair (>1-2 cm)
+        │   │   ├─ Timing: Up to 2 years post-injury (before muscle atrophy)
+        │   │   ├─ Donor nerves:
+        │   │   │   ├─ Great auricular nerve (most common): Easy access, adequate length
+        │   │   │   ├─ Sural nerve: If longer graft needed (harvest from ankle)
+        │   │   │   └─ Sacrifice: Sensory loss in donor area (acceptable trade-off)
+        │   │   │
+        │   │   ├─ Technique:
+        │   │   │   ├─ Harvest: Donor nerve (adequate length)
+        │   │   │   ├─ Interpose: Between proximal and distal CN VII stumps
+        │   │   │   ├─ Suture: 9-0 nylon, tension-free (proximal and distal anastomoses)
+        │   │   │   └─ Goal: Bridge gap, allow axonal regeneration
+        │   │   │
+        │   │   └─ Prognosis: HB III-IV in 50-70% (worse than primary repair)
+        │   │
+        │   ├─ 3. Nerve Transfer (Cross-Facial Nerve Graft + Masseteric Nerve):
+        │   │   ├─ Indication: Proximal nerve injury (no viable CN VII proximal stump)
+        │   │   ├─ Timing: Up to 2 years post-injury
+        │   │   │
+        │   │   ├─ Cross-facial nerve graft (CFNG):
+        │   │   │   ├─ Principle: Use contralateral CN VII branches to power paralyzed side
+        │   │   │   ├─ Technique:
+        │   │   │   │   ├─ Identify: Buccal branches on normal side (identify with stimulator)
+        │   │   │   │   ├─ Divide: 30-50% of buccal branches (avoid weakening donor side)
+        │   │   │   │   ├─ Graft: Sural nerve from donor side across face to paralyzed side
+        │   │   │   │   ├─ Coaptation: Distal graft to facial nerve branches on paralyzed side
+        │   │   │   │   └─ Wait: 9-12 months for axons to grow across face
+        │   │   │   │
+        │   │   │   ├─ Advantage: Spontaneous, symmetric smiling (mirror movements)
+        │   │   │   └─ Disadvantage: Long delay (12+ months), weak smile
+        │   │   │
+        │   │   └─ Masseteric nerve transfer (alternative/adjunct):
+        │   │       ├─ Principle: Masseteric nerve (CN V3 branch) transferred to distal CN VII
+        │   │       ├─ Technique:
+        │   │       │   ├─ Identify: Masseteric nerve (deep to masseter muscle)
+        │   │       │   ├─ Divide: Distal masseteric nerve
+        │   │       │   ├─ Transfer: Coaptation to buccal branches or main CN VII trunk
+        │   │       │   └─ Reinnervation: 3-6 months (faster than CFNG!)
+        │   │       │
+        │   │       ├─ Advantage: Faster recovery, stronger contraction
+        │   │       ├─ Disadvantage: Non-spontaneous (clench teeth → smile), not symmetric
+        │   │       └─ Combined: CFNG + masseteric (best of both)
+        │   │
+        │   ├─ 4. Regional Muscle Transfer:
+        │   │   ├─ Indication: Chronic paralysis (>2 years), muscle atrophy
+        │   │   ├─ Principle: Transfer nearby innervated muscle to restore smile
+        │   │   │
+        │   │   ├─ Temporalis muscle transfer:
+        │   │   │   ├─ Technique: Rotate temporalis muscle inferiorly, attach to oral commissure
+        │   │   │   ├─ Reanimation: Clench teeth → corner of mouth elevates
+        │   │   │   └─ Advantage: Strong, durable
+        │   │   │
+        │   │   └─ Masseter muscle transfer:
+        │   │       ├─ Similar to temporalis, rotate masseter to oral commissure
+        │   │       └─ Advantage: Less temporal hollowing than temporalis
+        │   │
+        │   └─ 5. Free Functional Muscle Transfer:
+        │       ├─ Indication: Chronic paralysis (>2 years), best cosmetic result
+        │       ├─ Principle: Transfer innervated muscle with vascular pedicle (microvascular)
+        │       │
+        │       ├─ Gracilis muscle (most common):
+        │       │   ├─ Harvest: From medial thigh (with obturator nerve and vascular pedicle)
+        │       │   ├─ Transfer: To face (attach to zygomatic arch and oral commissure)
+        │       │   ├─ Neurotization: Coaptation to masseteric nerve or CFNG
+        │       │   ├─ Vascular: Anastomose to facial artery/vein (microvascular)
+        │       │   └─ Reinnervation: 6-12 months for movement
+        │       │
+        │       ├─ Advantage: Best cosmetic result, powerful smile
+        │       ├─ Disadvantage: Complex surgery (8-12 hours), microvascular expertise required
+        │       └─ Success: 85-90% functional smile
+        │
+        ├─ Adjunctive Procedures (Static vs Dynamic):
+        │   │
+        │   ├─ Static Procedures (No Movement):
+        │   │   ├─ Gold weight implant (upper eyelid):
+        │   │   │   ├─ Indication: Lagophthalmos (cannot close eye)
+        │   │   │   ├─ Technique: Implant gold weight in upper eyelid (gravity aids closure)
+        │   │   │   └─ Efficacy: 90% improve eye closure (protect cornea)
+        │   │   │
+        │   │   ├─ Lower eyelid tightening:
+        │   │   │   ├─ Lateral tarsal strip, lateral canthoplasty
+        │   │   │   └─ Goal: Prevent ectropion, improve eye closure
+        │   │   │
+        │   │   ├─ Brow lift:
+        │   │   │   ├─ Suspend drooping brow (direct, endoscopic, or temporal lift)
+        │   │   │   └─ Improve: Symmetry, reduce lagophthalmos
+        │   │   │
+        │   │   └─ Static sling:
+        │   │       ├─ Fascia lata graft from corner of mouth to zygomatic arch
+        │   │       └─ Goal: Elevate oral commissure (cosmetic, not functional)
+        │   │
+        │   └─ Chemodenervation (Botulinum Toxin):
+        │       ├─ Indication: Synkinesis (overactivity on normal side or aberrant regeneration)
+        │       ├─ Technique: Inject BoNT into overactive muscles
+        │       └─ Goal: Balance facial symmetry (weaken hyperactive side)
+        │
+        └─ Multidisciplinary Approach:
+            ├─ Neurosurgery: Nerve repair, nerve grafting
+            ├─ Plastic surgery: Muscle transfers, free flaps
+            ├─ Oculoplastic: Eyelid procedures (gold weight, tarsal strip)
+            ├─ Physical therapy: Facial neuromuscular retraining
+            └─ Patient counseling: Realistic expectations, long timeline (12-24 months)
 ```
 
-Due to length constraints, I'll continue CN VII (testing, clinical syndromes, Bell's palsy, surgical considerations) in the next edit. Should I continue?
+---
