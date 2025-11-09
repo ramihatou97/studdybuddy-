@@ -336,11 +336,19 @@ studybuddy health-check                        # System health check
 
 ## 📚 Documentation
 
+### Core Implementation Guides
 - **Implementation Guides**: `docs/IMPLEMENTATION_GUIDE*.md` (7,916 lines)
 - **Architecture**: `docs/IMPLEMENTATION_PLAN.md`
 - **Quick Reference**: `docs/IMPLEMENTATION_GUIDE_PART3.md#quick-reference`
 - **Troubleshooting**: `docs/IMPLEMENTATION_GUIDE_PART3.md#troubleshooting-guide`
 - **Deployment**: `docs/IMPLEMENTATION_GUIDE_PART3.md#deployment-guide`
+
+### Strategic Analysis: LLM Usage
+- **[LLM Maximization Analysis](docs/LLM_MAXIMIZATION_ANALYSIS.md)** - Comprehensive pros/cons analysis
+- **[LLM Decision Matrix](docs/LLM_DECISION_MATRIX.md)** - When to use LLMs vs traditional code
+- **[Implementation Examples](docs/LLM_IMPLEMENTATION_EXAMPLES.md)** - Side-by-side code comparisons
+
+**TL;DR:** Current architecture (70-80% traditional code, 20-30% LLM) is optimal. Don't maximize LLM usage.
 
 ---
 
