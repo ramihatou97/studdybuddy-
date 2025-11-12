@@ -1,0 +1,60 @@
+==========================================
+  Content Extraction & Chapter Generation
+  Demonstration Output
+==========================================
+
+1. NEW DASHBOARD WITH EXTRACTION STATUS
+----------------------------------------
+
+📊 StudyBuddy Dashboard
+
+                                📈 Your Progress                                
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ Category                  ┃      Count ┃ Status                              ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│ Books                     │          0 │ 📚 Textbooks in library             │
+│ Extracted Pages           │          0 │ 📄 Pages with extracted text        │
+│ Extracted Images          │          0 │ 🖼️  Figures and diagrams             │
+│ Generated Chapters        │          0 │ 📖 AI-synthesized chapters          │
+│ Notes                     │          0 │ 📝 Study notes created              │
+│ Flashcards                │          0 │ 🗂️  Cards for review                 │
+│ Study Sessions            │          0 │ ⏱️  Tracked sessions                 │
+└───────────────────────────┴────────────┴─────────────────────────────────────┘
+
+Content Extraction:
+  Books with extracted text: 0/0
+  Books with extracted images: 0/0
+
+Flashcards:
+  Due for review: 0
+  Mastered: 0
+
+Last 7 Days:
+  Study time: 0.0 hours
+  Topics: 0
+
+
+2. CHAPTER COMMANDS AVAILABLE
+------------------------------
+Usage: main.py chapter [OPTIONS] COMMAND [ARGS]...
+
+  Generate comprehensive medical chapters from extracted content
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  generate  Generate a comprehensive chapter on a subject
+  list      List all generated chapters
+  view      View a generated chapter
+
+3. CHAPTER GENERATE COMMAND HELP
+---------------------------------
+Usage: main.py chapter generate [OPTIONS] SUBJECT
+
+  Generate a comprehensive chapter on a subject
+
+Options:
+  --book-ids TEXT      Comma-separated book IDs to use as sources  [required]
+  --search-terms TEXT  Additional search terms (comma-separated)
+  --help               Show this message and exit.
